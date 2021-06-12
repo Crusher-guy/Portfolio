@@ -170,7 +170,7 @@
   background: #000;
 }
 .bottom {
-  padding: 5px;
+  padding: 15px;
   font-size: 0.8rem;
   background: var(--color-cinza-card);
   text-align: center;
@@ -179,6 +179,7 @@
 .bottom span {
   color: var(--color-cinza-icones);
   background: var(--color-cinza-card);
+margin-bottom: 10px;
 }
 .bottom a {
   color: var(--color-lilas-botao);

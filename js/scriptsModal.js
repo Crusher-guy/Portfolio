@@ -28,7 +28,7 @@ window.onclick = function(event) {
   if (event.target == modal) {
     document.querySelector('.modal-overlay').classList.remove('active');
   }
-  if (event.target == modalCompanies) {
+  if (event.target == modal) {
     document.querySelector('.modal-overlay').classList.remove('active');
   }
 }

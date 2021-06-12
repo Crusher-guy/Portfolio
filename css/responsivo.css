@@ -82,9 +82,9 @@
 }
 
 @media (max-width: 540px) {
-  .container ul li {
+  /* .container ul li {
     display: none;
-  }
+  } */
   .header-descrição input {
     align-self: center;
   }
@@ -145,12 +145,7 @@
     margin-top: 490px;
   }
 }
-/* 
-@media (max-width:958px){
-  .bg_serviços_box{
-    max-height: 1020px;
-  }
-} */
+
 
 @media (max-width: 985px) {
   .bg_serviços_box {

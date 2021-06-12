@@ -20,11 +20,11 @@
   --descriptions-color: #969cb3;
 }
 
-.container.modal {
+/* .container.modal {
   width: min(90vw, 960px);
   margin: auto;
   background: violet;
-}
+} */
 
 /* Titles ===================== */
 h2 {
@@ -74,7 +74,7 @@ a:hover {
 .modal {
   background-color: var(--body-color);
   color: var(--base-color);
-  width: 100%;
+  width: 90%;
   max-width: 1170px;
   border-radius: 0.5rem;
   z-index: 1;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .cards_portfolio_modal li {
-  max-width: 960px;
+  max-width: 1170px;
   flex: 1 2 329px;
   height: 100%;
   border-radius: 2px;
@@ -110,7 +110,7 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.portfolio-imagem-modal {
+.portfolio-imagem-modal{
   text-align: center;
   padding: 30px;
   background: transparent;
@@ -122,11 +122,11 @@ a:hover {
   border-radius: 2px;
 }
 
-.card_titulo-modal {
+.card-titulo-modal {
   background: transparent;
   max-width: 400px;
 }
-.card_titulo-modal h2 {
+.card-titulo-modal h2 {
   max-width: 100%;
   padding: 0px 30px 0;
   background: transparent;
@@ -139,11 +139,11 @@ a:hover {
   background: transparent;
 }
 
-.descrição_card-modal {
+.descrição-card-modal {
   background: transparent;
 }
 
-.portfólio-descrição-modal .saiba_mais-modal {
+.portfólio-descrição-modal .saiba-mais-modal {
   color: #b07dfb;
   font-size: 0.7rem;
   float: right;
@@ -163,10 +163,10 @@ a:hover {
   transform: translatey(7px);
 }
 
-/* @media (max-width: 1193px) {
+@media (max-width: 956px) {
   .modal {
     align-self: flex-start;
     margin-bottom: 60px;
     margin-top: 60px;
   }
-} */
+}
