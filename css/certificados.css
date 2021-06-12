@@ -1,0 +1,83 @@
+/* Modal ===================== */
+.modal-overlay-certificado {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 999;
+  overflow: auto;
+}
+
+.modal-overlay-certificado.active {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.4s ease 0.4s;
+}
+
+.modal_certificado {
+  background-color: var(--body-color);
+  color: var(--base-color);
+  box-shadow: 0 0 0.8em var(--shadow);
+  width: 90%;
+  max-width: 1170px;
+  border-radius: 0.5rem;
+  z-index: 1;
+  /* align-self: flex-start; */
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  padding: 10px;
+  text-align: start;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: "roboto";
+}
+
+.flex > div {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+.ceritificados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0;
+}
+
+.row .certficados li {
+  list-style: none;
+}
+
+.row span {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+@media (max-width: 1089px) {
+  .modal_certificado {
+    align-self: flex-start;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+}

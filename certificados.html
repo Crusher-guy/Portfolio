@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificados</title>
+
+  <link rel="stylesheet" href="./css/modal.css">
+  <link rel="stylesheet" href="css/certificados.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <main class="container.modal">
+    <section>
+      <a href="#" onclick="ModalCertificado.open()" class="saiba_mais">Saiba Mais</a>
+    </section>
+  </main>
+  <div class="modal-overlay-certificado">
+    <div class="modal_certificado">
+      <!-- sessão portfólio -->
+      <section class=" ">
+        <!-- Card 1 -->
+        <article class="row">
+
+          <ul class="certificados">
+            <span><img onclick="ModalCertificado.close()" class="fechar" src="./assets/fechar.svg" alt="fechar"></span>
+            <li>
+              <header class="certificados_container">
+                <!-- <span><img onclick="ModalCertificado.close()" class="fechar" src="./assets/fechar.svg"
+                    alt="fechar"></span> -->
+              </header>
+              <section class="flex">
+                <div>
+                  <img src="./img/Certificado1.png">
+                  <p>Desenvolvedor Web</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado2.jpg">
+                  <p>Desenvolvedor Full Stack</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado3.png">
+                  <p>Programador de Software</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado4.jpg">
+                  <p>Desenvolvedor Web</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado5.jpg">
+                  <p>Graduação </p>
+                </div>
+                <div>
+                  <img src="./img/Certificado6.jpg">
+                  <p>MBA Especialização</p>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </div>
+  </div>
+  <script src="./scriptsModal.js"></script>
+</body>
+
+</html>

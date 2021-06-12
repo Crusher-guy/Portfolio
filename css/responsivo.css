@@ -1,0 +1,194 @@
+@media (min-width: 956px) and (max-width: 1170px) {
+  .seta {
+    display: none;
+  }
+
+  .header-descrição .img-Leo1 {
+    display: none;
+  }
+}
+
+@media (max-width: 956px) {
+  .navbar ul li a,
+  #whatsappIcone,
+  .img-Leo1 {
+    display: none;
+  }
+  .navbar ul li {
+    line-height: 125px;
+    /* margin: 0 18px; */
+  }
+
+  .seta {
+    display: none;
+  }
+
+  .header-descrição .img-Leo1 {
+    display: none;
+  }
+}
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+    max-width: 100%;
+    margin-right: 30px;
+    z-index: 11;
+  }
+  .items {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: var(--color-preto-background);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .navbar ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navbar ul li a,
+  #whatsappIcone {
+    display: none;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+    z-index: 11;
+    /* margin-left: -30px; */
+  }
+}
+@media (max-width: 1167px) {
+  .navbar ul li:nth-child(6) {
+    display: none;
+  }
+  .navbar ul li:nth-child(7) {
+    display: none;
+  }
+}
+
+@media (max-width: 597px) {
+  .container .icones_sociais ul li {
+    display: none;
+  }
+  .header-descrição input {
+    align-self: center;
+  }
+  .header-descrição h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 540px) {
+  .container ul li {
+    display: none;
+  }
+  .header-descrição input {
+    align-self: center;
+  }
+  .container .header-descrição h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (width: 540px) {
+  .container ul li {
+    display: none;
+  }
+  .header-descrição input {
+    align-self: center;
+  }
+  .container .header-descrição h1 {
+    font-size: 2.5em;
+  }
+
+  .container {
+    margin-top: 60px;
+  }
+  .sobre-section {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 956px) {
+  .sobre-section .descrição {
+    background-color: transparent;
+  }
+  .sobre-section {
+    background-color: transparent;
+    margin-left: 30px;
+  }
+
+  .sobre-section .descrição h1 {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .sobre-section .descrição p {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1030px) {
+  .habilidades {
+    margin-top: 360px;
+  }
+  .sobre-section {
+    background-color: transparent;
+  }
+  .sobre-section .descrição {
+    background-color: transparent;
+  }
+
+  .habilidades {
+    margin-top: 490px;
+  }
+}
+/* 
+@media (max-width:958px){
+  .bg_serviços_box{
+    max-height: 1020px;
+  }
+} */
+
+@media (max-width: 985px) {
+  .bg_serviços_box {
+    margin-top: 880px;
+  }
+
+  .serviços_box h1 {
+    margin-top: -500px;
+    padding-top: 40px;
+  }
+
+  .cards {
+    margin-top: -560px;
+  }
+
+  .cards .left_box {
+    padding-top: 100px;
+  }
+
+  .cards .right_box {
+    padding-top: 100px;
+  }
+
+  .formacao_adademica .img2 {
+    transform: translate(-420px, 65px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box_footer {
+    margin: 5px 0;
+  }
+}

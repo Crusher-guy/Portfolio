@@ -1,0 +1,43 @@
+/* barra menu hamburguer*/
+.navbar {
+  background: var(--color-preto-background);
+  font-weight: bold;
+  height: 80px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.navbar ul {
+  float: lef;
+  /* margin-right: 10px; */
+}
+.navbar ul li {
+  display: inline-block;
+  line-height: 40px;
+  margin: 0 5px;
+  letter-spacing: 0.05em;
+}
+
+.navbar ul li:nth-child(6) {
+  margin-left: 430px;
+}
+
+.navbar ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}

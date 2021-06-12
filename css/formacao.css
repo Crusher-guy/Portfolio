@@ -1,0 +1,123 @@
+.formacao_box h1 {
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  /* background-color: aqua; */
+}
+
+.formacao_box .formacao:before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: var(--color-lilas-botao);
+  margin: 8px auto;
+  transform: translateX(-40px);
+}
+
+.formacao_adademica {
+  /* background-color: blue; */
+  width: 100%;
+  height: 480px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.formacao_adademica .left_box {
+  display: flex;
+  flex-direction: row;
+  /* background-color: blueviolet; */
+  margin: 65px;
+  /* margin-right: 180px; */
+  max-width: 370px;
+  font-family: 'roboto';
+  font-weight: normal;
+}
+
+.formacao_adademica img {
+  transform: translateX(-30px);
+  max-height: 315px;
+}
+
+.formacao_adademica .img2 {
+  transform: translate(-440px, 65px);
+  /* transform: translateX(-455px);
+  transform: translateY(80px); */
+  max-height: 315px;
+}
+
+.formacao_adademica .right_box {
+  /* background-color: burlywood; */
+  margin: 65px;
+  margin-left: 80px;
+  max-width: 340px;
+}
+
+.graduacao ul li {
+  margin-bottom: 30px;
+  max-width: 340px;
+}
+
+.graduacao .data {
+  width: 66px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: var(--color-cinza-icones);
+  color: transparent;
+}
+
+.datali {
+  background-color: transparent;
+  text-align: center;
+  margin-top: -9px;
+  justify-content: center;
+  color: var(--color-cinza-background);
+}
+
+.texto {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.graduacao .data {
+  content: '';
+  color: var(--color-cinza-subtitulo);
+  text-align: center;
+}
+
+.saiba_mais ul li {
+  display: inline-flex;
+  /* background-color: chartreuse; */
+  text-align: right;
+}
+
+.saiba_mais ul li + li a {
+  margin-left: 165px;
+  font-size: 0.8em;
+  margin-bottom: 60px;
+  color: var(--color-lilas-botao);
+}
+
+.right_box h3,
+p {
+  margin-bottom: 30px;
+}
+
+.saiba_mais ul .saiba-li2 a {
+  margin-left: 206px;
+  margin-bottom: 60px;
+  color: var(--color-lilas-botao);
+}
+
+.saiba_mais .cursos {
+  margin-top: 5px;
+}
+
+.cursosjs {
+  margin-top: 10px;
+}
