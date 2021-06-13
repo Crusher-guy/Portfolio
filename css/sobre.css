@@ -1,4 +1,4 @@
-.sobre{
+.sobre {
   width: 100%;
   display: flex;
   margin: 0 auto;
@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 }
 
-.sobre-section{
+.sobre-section {
   display: flex;
   flex-wrap: wrap;
 }
@@ -24,7 +24,7 @@
 .sobre-section img {
   width: 450px;
   height: 450px;
-  /* filter: grayscale(100%) opacity(60%); */
+  max-width: 100%;
   background-color: var(--color-preto-card);
 }
 
@@ -54,7 +54,7 @@
 }
 
 .sobre-section .descrição p {
-  width: 400px;
+  max-width: 100%;
   margin: 0 60px 30px;
   background: transparent;
   color: var(--color-cinza-subtitulo);
