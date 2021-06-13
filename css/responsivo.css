@@ -1,8 +1,4 @@
 @media (min-width: 956px) and (max-width: 1170px) {
-  .seta {
-    display: none;
-  }
-
   .header-descrição .img-Leo1 {
     display: none;
   }
@@ -18,11 +14,6 @@
     line-height: 125px;
     /* margin: 0 18px; */
   }
-
-  .seta {
-    display: none;
-  }
-
   .header-descrição .img-Leo1 {
     display: none;
   }
@@ -79,6 +70,13 @@
   .header-descrição h1 {
     font-size: 2.5em;
   }
+  .header-descrição h1{
+    margin:0;
+  }
+  .header-descrição p {
+    margin-left: 0;
+  }
+
 }
 
 @media (max-width: 540px) {
@@ -90,6 +88,12 @@
   }
   .container .header-descrição h1 {
     font-size: 2.5em;
+  }
+}
+
+@media (max-width:500px){
+  .container-header {
+flex-wrap: nowrap;
   }
 }
 

@@ -25,7 +25,6 @@
 .cards {
   background: var(--color-cinza-card);
   width: 100%;
-  /* height: 410px; */
   display: flex;
   margin: 0 auto;
   justify-content: center;

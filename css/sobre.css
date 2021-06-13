@@ -1,3 +1,17 @@
+.sobre{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sobre-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .sobre-section {
   display: flex;
   flex-wrap: wrap;

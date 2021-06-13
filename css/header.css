@@ -1,12 +1,14 @@
 .container-header{
   /* background: turquoise; */
   display: flex;
+  flex-wrap: wrap;
+  height: 400px;
 }
 
 .container-header .icones_sociais {
-  margin-top: 60px;
+  margin-top: 30px;
   padding-bottom: 30px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .container-header .icones_sociais ul li {
@@ -16,12 +18,10 @@
 }
 
 .header-descrição {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-top: 5px;
+  display: block;
+max-width: 100%;
   /* background: tomato; */
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .header-descrição h1 {
@@ -39,6 +39,8 @@
 }
 
 .header-descrição p {
+  display: block;
+  max-width: 80%;
   margin-top: 30px;
   margin-left: 60px;
   width: 440px;
@@ -59,11 +61,12 @@
   text-align: center;
 }
 
-.container-header .img-Leo1 {
+ .img-Leo1 {
   width: 400px;
   height: 400px;
-  margin: -40px 85px 0 85px;
+  /* margin: -40px 85px 0 85px; */
   position: absolute;
   right: 0px;
   margin-right: 0px;
+
 }
