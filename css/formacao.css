@@ -1,3 +1,10 @@
+.formacao_box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
 .formacao_box h1 {
   height: 40px;
   margin: 0 auto;
@@ -19,10 +26,10 @@
 .formacao_adademica {
   /* background-color: blue; */
   width: 100%;
-  height: 480px;
+  height: 500px;
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -31,9 +38,9 @@
   display: flex;
   flex-direction: row;
   /* background-color: blueviolet; */
-  margin: 65px;
-  /* margin-right: 180px; */
+ padding: 65px;
   max-width: 370px;
+  height: 450px;
   font-family: 'roboto';
   font-weight: normal;
 }
@@ -51,10 +58,14 @@
 }
 
 .formacao_adademica .right_box {
-  /* background-color: burlywood; */
-  margin: 65px;
-  margin-left: 80px;
-  max-width: 340px;
+  padding: 65px;
+  max-width: 370px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+
+
 }
 
 .graduacao ul li {
@@ -109,9 +120,10 @@ p {
 }
 
 .saiba_mais ul .saiba-li2 a {
-  margin-left: 206px;
+  margin-left:100px;
   margin-bottom: 60px;
   color: var(--color-lilas-botao);
+display: inline-block;
 }
 
 .saiba_mais .cursos {
