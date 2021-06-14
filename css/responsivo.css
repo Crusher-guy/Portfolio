@@ -147,10 +147,10 @@ transform: translatex(-35px);
 }
 
 
-@media (max-width: 960px) {
-  /* .bg_serviços_box {
+@media (max-width: 740px) {
+  .bg_serviços_box {
     margin-top: 880px;
-  }
+  } 
 
   .serviços_box h1 {
     margin-top: -500px;
@@ -190,8 +190,40 @@ transform: translatex(-35px);
 
 @media (max-width: 361px) {
 .saiba_mais ul .saiba-li2  {
-/* position: absolute; */
+  display: flex;
+  align-self: left;
+  margin-left: 0;
+  margin-bottom: 0;
 
 }
+@media (max-width: 361px) {
+.saiba_mais ul .saiba-li2 a{
+margin-top: 10px;
+margin-left: 0;
+}
+}
+
+@media (max-width: 361px) {
+  .saiba_mais ul .saiba-li1  {
+    display: flex;
+    align-self: left;
+    margin-left: 0;
+    margin-bottom: 0;
+
+  }
+  @media (max-width: 361px) {
+  .saiba_mais ul .saiba-li1 a{
+  margin-top: 10px;
+  margin-left: 0;
+  }
+  .bg_serviços_box {
+    margin-top: 960px;
+  } 
+  }
+
+  @media (max-width: 291px) {
+  .bg_serviços_box {
+    margin-top: 990px;
+  } 
 }
 

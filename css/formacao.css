@@ -119,12 +119,21 @@ p {
   margin-bottom: 30px;
 }
 
+.saiba_mais ul .saiba-li1 a {
+  margin-left:60px;
+  margin-bottom: 60px;
+  color: var(--color-lilas-botao);
+display: inline-block;
+}
+
 .saiba_mais ul .saiba-li2 a {
   margin-left:100px;
   margin-bottom: 60px;
   color: var(--color-lilas-botao);
 display: inline-block;
 }
+
+
 
 .saiba_mais .cursos {
   margin-top: 5px;
