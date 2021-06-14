@@ -147,7 +147,7 @@ transform: translatex(-35px);
 }
 
 
-@media (max-width: 740px) {
+@media (max-width: 741px) {
   .bg_serviços_box {
     margin-top: 880px;
   } 
@@ -164,10 +164,6 @@ transform: translatex(-35px);
   .cards .left_box {
     padding-top: 100px;
   }
-
-  .cards .right_box {
-    padding-top: 100px;
-  } */
 
   .formacao_adademica .img2 {
     transform: translate(-440px, 65px);
@@ -188,30 +184,30 @@ transform: translatex(-35px);
   }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 363px) {
 .saiba_mais ul .saiba-li2  {
   display: flex;
   align-self: left;
   margin-left: 0;
   margin-bottom: 0;
-
 }
-@media (max-width: 361px) {
+}
+@media (max-width: 363px) {
 .saiba_mais ul .saiba-li2 a{
 margin-top: 10px;
 margin-left: 0;
 }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 363px) {
   .saiba_mais ul .saiba-li1  {
     display: flex;
     align-self: left;
     margin-left: 0;
     margin-bottom: 0;
-
   }
-  @media (max-width: 361px) {
+  }
+  @media (max-width: 363px) {
   .saiba_mais ul .saiba-li1 a{
   margin-top: 10px;
   margin-left: 0;
@@ -223,7 +219,12 @@ margin-left: 0;
 
   @media (max-width: 291px) {
   .bg_serviços_box {
-    margin-top: 990px;
+    margin-top: 1020px;
   } 
 }
 
+@media (max-width:834px){
+  .cards .right_box {
+margin-top: 0px;
+  }
+}
