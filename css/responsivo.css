@@ -148,6 +148,11 @@ flex-wrap: nowrap;
   .habilidades {
     margin-top: 490px;
   }
+  .sobre-section .download {
+margin: 0 auto;
+transform: translatex(-35px);
+  }
+  
 }
 
 
