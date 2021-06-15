@@ -36,7 +36,7 @@ max-width: 100%;
   display: block;
   width: 152px;
   height: 1px;
-  background: var(--color-lilas-botao);
+  background: var(  --color-cinza-titulo);
   margin: 8px auto;
   transform: translateX(-130px);
 }

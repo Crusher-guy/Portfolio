@@ -19,6 +19,7 @@
   height: 450px;
   background-color: var(--color-cinza-card);
   margin-left: -60px;
+  justify-content: space-evenly;
 }
 
 .sobre-section img {
