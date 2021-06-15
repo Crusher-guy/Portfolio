@@ -268,7 +268,10 @@
 					<div class="saiba_mais">
 						<ul>
 							<li>Certificados</li>
-							<li class="saiba-li1"><a href="/certificados.html">Saiba mais</a></li>
+							<!-- <li class="saiba-li1"><a href="/certificados.html">Saiba mais</a></li> -->
+							<!-- <a id="saiba_mais_certificado" href="#" onclick="Modal.open()" class="saiba_mais_certificado">Saiba Mais</a> -->
+							<li class="saiba-li1"><a id="saiba_mais_certificado" href="#" onclick="Modal.open()" class="saiba_mais_certificado">Saiba Mais</a></li>
+
 						</ul>
 					</div>
 					<p>Bootcamps Fullstack, Desenvolvimento Web, Html5, CSS5, Javascript ES6</p>
@@ -311,6 +314,12 @@
 	</section>
 
 
+<!-- certificados Modal -->
+
+
+
+
+
 	<!-- sessão portfólio -->
 	<section class="portfolio container">
 		<header class="title">
@@ -328,7 +337,6 @@
 						<h2>Website</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de website para alocação de desafios realizados com CSS</p>
-							<!-- <a id="saiba_mais" href="./modal.html" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a> -->
 							<a id="saiba_mais" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
@@ -457,9 +465,7 @@
 		</article>
 
 	</section>
-	<!-- section modal  -->
-
-	<!-- Modal Card 1 -->
+	<!-- Modal do portifólio -->
 	<div class="container.modal">
 		<div class="modal-overlay">
 			<div class="modal" id="modal">
@@ -498,6 +504,56 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Modal dos certificados  -->
+
+  <main class="container.modal">
+  </main>
+  <div class="modal-overlay-certificado">
+    <div class="modal_certificado">
+      <!-- sessão portfólio -->
+      <section class=" ">
+        <!-- Card 1 -->
+        <article class="row">
+
+          <ul class="certificados">
+            <span><img onclick="certificados.close()" class="fechar_certificado" src="./assets/fechar.svg" alt="fechar"></span>
+            <li>
+              <header class="certificados_container">
+              </header>
+              <section class="flex">
+                <div>
+                  <img src="./img/Certificado1.png">
+                  <p>Desenvolvedor Web</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado2.jpg">
+                  <p>Desenvolvedor Full Stack</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado3.png">
+                  <p>Programador de Software</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado4.jpg">
+                  <p>Desenvolvedor Web</p>
+                </div>
+                <div>
+                  <img src="./img/Certificado5.jpg">
+                  <p>Graduação </p>
+                </div>
+                <div>
+                  <img src="./img/Certificado6.jpg">
+                  <p>MBA Especialização</p>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </div>
+  </div>
 
 
 
@@ -575,6 +631,7 @@
 	</div>
 	<script src="js/script.js" type="text/javascript"></script>
 	<script src="js/scriptsModal.js"></script>
+	<script src="js/scriptsModalCertificados.js"></script>
 </body>
 </div>
 

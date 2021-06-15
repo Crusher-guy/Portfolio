@@ -1,4 +1,10 @@
 /* Modal ===================== */
+
+.container.modal {
+  width: min(90vw, 960px);
+  margin: auto;
+}
+
 .modal-overlay-certificado {
   width: 100%;
   height: 100%;
@@ -21,8 +27,8 @@
 }
 
 .modal_certificado {
-  background-color: var(--body-color);
-  color: var(--base-color);
+  background-color: #1a191c;
+  color: #e1e1e6;
   box-shadow: 0 0 0.8em var(--shadow);
   width: 90%;
   max-width: 1170px;
@@ -56,7 +62,7 @@ img {
   margin: 10px;
 }
 
-.ceritificados {
+.certificados {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -64,8 +70,15 @@ img {
   padding: 0;
 }
 
-.row .certficados li {
+.row .certificados li {
   list-style: none;
+}
+
+.certificados .fechar {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+
 }
 
 .row span {
