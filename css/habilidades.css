@@ -10,4 +10,16 @@
   border: solid var(--color-cinza-titulo);
   margin-right: 10px;
   border-style: solid var(--color-cinza-titulo);
+color:var(--color-cinza-titulo);
+}
+
+.habilidades .habilidade-h1::before{
+content: '';
+display: block;
+width: 40px;
+height: 1px;
+margin: 0 auto;
+background: var(--color-lilas-botao);
+transform: translate(-50px, -10px);
+
 }
