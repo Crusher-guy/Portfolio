@@ -1,6 +1,6 @@
 /* Modal ===================== */
 
-.container.modal-portfolio {
+.container.modal-certificado {
   width: min(90vw, 960px);
   margin: auto;
 }
@@ -37,7 +37,7 @@
   /* align-self: flex-start; */
 }
 
-.row ul .certificados {
+.row-certificado ul {
   list-style: none;
   padding-inline-start: 0px;
   padding: 10px;
@@ -70,24 +70,24 @@
   padding: 0;
 }
 
-.row .certificados li {
+.row-certificado .certificados li {
   list-style: none;
 }
 
-.certificados .fechar {
+.certificados .fechar_certificado {
   position: absolute;
   top: 5px;
   right: 25px;
 
 }
 
-.row span {
+.row-certificado span {
   display: flex;
   justify-content: flex-end;
   margin: 10px;
 }
 
-@media (max-width: 1089px) {
+@media (max-width: 1194px) {
   .modal_certificado {
     align-self: flex-start;
     margin-bottom: 60px;

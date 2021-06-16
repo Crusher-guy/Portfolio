@@ -2,10 +2,10 @@
 var modal = document.getElementById('modal');
 
 // Get the button that opens the modal
-var btn = document.getElementById('saiba_mais');
+var btn = document.getElementById('saiba_mais_certificado');
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName('fechar')[0];
+var span = document.getElementsByClassName('fechar_certificado')[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function () {
@@ -25,10 +25,10 @@ span.onclick = function () {
 // });
 
 window.onclick = function(event) {
-  if (event.target == modal) {
+  if (event.target == ModalCertificado) {
     document.querySelector('.modal-overlay-certificado').classList.remove('active');
   }
-  if (event.target == modal) {
+  if (event.target == ModalCertificado) {
     document.querySelector('.modal-overlay-certificado').classList.remove('active');
   }
 }
