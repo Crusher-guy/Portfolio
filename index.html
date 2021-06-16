@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="./css/portfolio.css">
 	<link rel="stylesheet" href="./css/footer.css">
 	<link rel="stylesheet" href="./css/certificados.css">
+	<link rel="stylesheet" href="./css/cursos.css">
 	<link rel="stylesheet" href="./css/responsivo.css">
 	<script src="./index.js"></script>
 	<script src="js/JQuery3.3.1.js"></script>
@@ -277,7 +278,7 @@
 					<div class="saiba_mais">
 						<ul>
 							<li class="cursos">Cursos</li>
-							<li class="saiba-li2"><a href="/cursos.html">Saiba mais</a></li>
+							<li class="saiba-li2"><a href="#" onclick="ModalCurso.open()" class="saiba_mais_curso" id="saiba_mais_curso">Saiba Mais</a></li>
 						</ul>
 
 					</div>
@@ -554,7 +555,58 @@
 	</div>
 	</div>
 
+	<!-- Modal dos cursos  -->
 
+
+
+	
+  <main class="container.modal-curso">  </main>
+  </main>
+  <div class="modal-overlay-curso">
+    <div class="modal_curso" id="modal_curso">
+      <!-- sessão portfólio -->
+      <section class=" ">
+        <!-- Card 1 -->
+        <article class="row-curso">
+
+          <ul class="curso">
+            <span><img onclick="ModalCurso.close()" class="fechar_curso" src="./assets/fechar.svg" alt="fechar"></span>
+            <li>
+              <header class="curso_container">
+              </header>
+              <section class="flex">
+                <div>
+                  <img src="./img/Curso1.png">
+                  <p>Javascript</p>
+                </div>
+                <div>
+                  <img src="./img/Curso2.png">
+                  <p>Github</p>
+                </div>
+                <div>
+                  <img src="./img/Curso3.png">
+                  <p>Angular</p>
+                </div>
+                <div>
+                  <img src="./img/Curso4.png">
+                  <p>Design UX/UI</p>
+                </div>
+                <div>
+                  <img src="./img/Curso5.png">
+                  <p>Jquery</p>
+                </div>
+                <div>
+                  <img src="./img/Curso6.png">
+                  <p>Bootstrap</p>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </div>
+  </div>
 
 	<!-- Footer -->
 
@@ -631,6 +683,7 @@
 	<script src="js/script.js" type="text/javascript"></script>
 	<script src="js/scriptsModal.js"></script>
 	<script src="js/scriptsModalcertificado.js"></script>
+	<script src="js/scriptsModalcurso.js"></script>
 </body>
 </div>
 
