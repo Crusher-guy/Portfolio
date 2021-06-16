@@ -163,7 +163,7 @@ a:hover {
   transform: translatey(7px);
 }
 
-@media (max-width: 956px) {
+@media (max-width: 1192px) {
   .modal {
     align-self: flex-start;
     margin-bottom: 60px;

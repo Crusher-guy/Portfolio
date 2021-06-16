@@ -2,10 +2,10 @@
 var modal = document.getElementById('modal');
 
 // Get the button that opens the modal
-var btn = document.getElementById('saiba_mais_certificado');
+var btn = document.getElementById('saiba_mais');
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName('fechar_certificado')[0];
+var span = document.getElementsByClassName('fechar')[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function () {
