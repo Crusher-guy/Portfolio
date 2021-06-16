@@ -62,6 +62,10 @@
   margin: 10px;
 }
 
+.flex p{
+margin-top: 10px;
+}
+
 .certificados {
   display: flex;
   justify-content: center;
