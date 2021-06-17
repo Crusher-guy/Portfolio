@@ -1,56 +1,10 @@
-/* Global ===================== */
-
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-:root {
-  /* BACKGOUNDS*/
-
-  --header-color: #000000;
-  --body-color: #1a191c;
-  --value-color: rgb(255, 255, 255);
-  --base-color: #ffffff;
-  --footer: #8257e6;
-
-  /* BASIC COLORS */
-
-  --primary-color: #212025;
-  --secundary-color: #8257e6;
-  --shadow: #1b1629;
-  --descriptions-color: #969cb3;
-}
-
-/* .container.modal {
-  width: min(90vw, 960px);
-  margin: auto;
-  background: violet;
-} */
-
-/* Titles ===================== */
-h2 {
-  margin-top: 3.2rem;
-  margin-bottom: 0.8rem;
-  color: #e1e1e6;
-  font-weight: normal;
-}
-
-.portfólio-descrição-modal p {
+.portfólio-descrição-modal-card2 p {
   color: #e1e1e6;
   line-height: 1.5;
 }
-
-/* Links  ===================== */
-
-a {
-  color: var(--button-new);
-  text-decoration: none;
-}
-a:hover {
-  color: var(--secundary-color);
-}
-
 /* Modal ===================== */
-.modal-overlay {
+
+.modal-overlay-card2 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -65,33 +19,33 @@ a:hover {
   overflow: auto;
 }
 
-.modal-overlay.active {
+.modal-overlay-card2.active {
   opacity: 1;
   visibility: visible;
   /* transition: all 0.1s ease 0.1s; */
 }
 
-.modal {
-  background-color: var(--body-color);
-  color: var(--base-color);
+.modal-card2 {
+  background-color: #1a191c;
+  color: #ffffff;
   width: 90%;
   max-width: 1170px;
   border-radius: 0.5rem;
   z-index: 1;
 }
 /* sessão dos portfolio-modal */
-.portfolio-modal {
+.portfolio-modal-card2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.row-modal {
+.row-modal-card2 {
   flex-direction: row;
   background: transparent;
 }
 
-.cards_portfolio_modal {
+.cards_portfolio_modal-card2{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -99,7 +53,7 @@ a:hover {
   padding: 0;
 }
 
-.cards_portfolio_modal li {
+.cards_portfolio_modal-card2 li {
   max-width: 1170px;
   flex: 1 2 329px;
   height: 100%;
@@ -110,53 +64,55 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.portfolio-imagem-modal{
+.portfolio-imagem-modal-card2{
   text-align: center;
   padding: 30px;
   background: transparent;
+  align-self: center;
 }
 
-.portfolio-imagem-modal .imagem-modal {
+.portfolio-imagem-modal-card2 .imagem-modal-card2 {
   max-width: 100%;
+  width: 609px;
   display: block;
   border-radius: 2px;
 }
 
-.card-titulo-modal {
+.card-titulo-modal-card2 {
   background: transparent;
   max-width: 400px;
 }
-.card-titulo-modal h2 {
+.card-titulo-modal-card2 h2 {
   max-width: 100%;
   padding: 0px 30px 0;
   background: transparent;
 }
 
-.portfólio-descrição-modal {
+.portfólio-descrição-modal-card2 {
   max-width: 100%;
   height: 120px;
   padding: 30px;
   background: transparent;
 }
 
-.descrição-card-modal {
+.descrição-card-modal-card2 {
   background: transparent;
 }
 
-.portfólio-descrição-modal .saiba-mais-modal {
+.portfólio-descrição-modal-card2 .saiba-mais-modal-card2 {
   color: #b07dfb;
   font-size: 0.8rem;
   float: right;
   margin: 20px;
 }
 
-.row-modal span {
+.row-modal-card2 span {
   position: absolute;
   top: 10px;
   right: 25px;
 }
 
-.portfólio-descrição-modal img {
+.portfólio-descrição-modal-card2 img {
   bottom: 50px;
   right: 50px;
   padding: 4px;
@@ -164,7 +120,7 @@ a:hover {
 }
 
 @media (max-width: 1192px) {
-  .modal {
+  .modal-card2 {
     align-self: flex-start;
     margin-bottom: 60px;
     margin-top: 60px;

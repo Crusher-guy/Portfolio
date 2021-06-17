@@ -30,6 +30,7 @@
 	<link rel="stylesheet" href="./css/footer.css">
 	<link rel="stylesheet" href="./css/certificados.css">
 	<link rel="stylesheet" href="./css/cursos.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard2.css">
 	<link rel="stylesheet" href="./css/responsivo.css">
 	<script src="./index.js"></script>
 	<script src="js/JQuery3.3.1.js"></script>
@@ -237,18 +238,13 @@
 							</div>
 						</li>
 					</ul>
-
-
-
-
-
 				</div>
 		</section>
 		<section class="formacao_box container">
 			<h1 class="formacao">Formação</h1>
 			<div class="formacao_adademica">
 				<div class="left_box">
-					<img class="img" src="./img/barra1.png" alt="barra1">
+					<!-- <img class="img" src="./img/barra1.png" alt="barra1"> -->
 					<div class="graduacao">
 						<ul>
 							<li>Gradução</li>
@@ -278,7 +274,8 @@
 					<div class="saiba_mais">
 						<ul>
 							<li class="cursos">Cursos</li>
-							<li class="saiba-li2"><a href="#" onclick="ModalCurso.open()" class="saiba_mais_curso" id="saiba_mais_curso">Saiba Mais</a></li>
+							<li class="saiba-li2"><a href="#" onclick="ModalCurso.open()" class="saiba_mais_curso"
+									id="saiba_mais_curso">Saiba Mais</a></li>
 						</ul>
 
 					</div>
@@ -352,7 +349,7 @@
 						<h2>Aplicação</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de aplicação para gestão financeira</p>
-							<a class="saiba_mais" href="/devFinance.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card1" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
@@ -466,23 +463,20 @@
 
 	</section>
 	<!-- Modal do portifólio -->
+	<!-- Modal saiba mais portfolio card1 -->
 	<div class="container.modal">
 		<div class="modal-overlay">
 			<div class="modal" id="modal">
-				<!-- sessão portfólio -->
 				<section class="portfolio-modal ">
-					<!-- Card 1 -->
 					<article class="row-modal">
 						<ul class="cards_portfolio_modal">
 							<span><img onclick="Modal.close()" class="fechar" src="./assets/fechar.svg" alt="fechar"></span>
 							<li>
 								<header class="portfolio-imagem-modal">
 									<img class="imagem-modal" src="img/30DiasDeCSSv3.png" alt="30DiasDeCSS">
-
 								</header>
 								<article class="card-titulo-modal">
 									<h2>Website</h2>
-
 									<div class="portfólio-descrição-modal">
 										<p class="descrição-card-modal">A criação deste website para alocação de desafios
 											realizados com CSS foi minha iniciativa. Foi a forma como encontrei para
@@ -490,10 +484,42 @@
 										<p class="descrição-card-modal">Como não sabia muito de responsividade na ocasição,
 											busquei ajuda com um desenvolvedor front-end que era contato no LinkedIn. Seu
 											trabalho e ajuda foram reconhecidos no website.</p>
-										<p class="descrição-card-modal">Como não sabia muito de responsividade na ocasição,
-											busquei ajuda com um desenvolvedor front-end que era contato no LinkedIn. Seu
-											trabalho e ajuda foram reconhecidos no website.</p>
+										<p class="descrição-card-modal">Os desafios encontrados foram garantir consistência dos cards em
+											telas menores e a configuração menu hamburguer. Usei tags semânticas para ajudar nas buscas </p>
 										<a class="saiba-mais-modal" href="https://leokattah.github.io/30diasDeCSS/" target="a_blank">Acesse
+											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</article>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal saiba mais portfolio card2 -->
+	<div class="container.modal-card2">
+		<div class="modal-overlay-card2">
+			<div class="modal-card2" id="modal-card2">
+				<section class="portfolio-modal-card2 ">
+					<article class="row-modal-card2">
+						<ul class="cards_portfolio_modal-card2">
+							<span><img onclick="Modal.close()" class="fechar-card2" src="./assets/fechar.svg" alt="fechar"></span>
+							<li>
+								<header class="portfolio-imagem-modal-card2">
+									<img class="imagem-modal-card2" src="img/DevFinance.png" alt="devFinance">
+								</header>
+								<article class="card-titulo-modal-card2">
+									<h2>Website</h2>
+									<div class="portfólio-descrição-modal-card2">
+										<p class="descrição-card-modal-card2">Esta aplicação foi desenvolvida durante a atividade de
+											Rocketseat. Tanto o front-end quanto o back-end foram levantados do zero. </p>
+										<p class="descrição-card-modal-card2">O dev.finances é uma aplicação de controle financeiro, onde é
+											possível cadastrar e excluir transações e ver o saldo de entrada e saída.</p>
+										<p class="descrição-card-modal-card2">As tecnologias usadas foram HTML, CSS e Javascript. </p>
+										<a class="saiba-mais-modal-card2" href="https://leokattah.github.io/DevFinance/"
+											target="a_blank">Acesse
 											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
 									</div>
 								</article>
@@ -510,11 +536,8 @@
 	<main class="container.modal-certificado"></main>
 	<div class="modal-overlay-certificado">
 		<div class="modal_certificado" id="modal_certificado">
-			<!-- sessão portfólio -->
 			<section class=" ">
-				<!-- Card 1 -->
 				<article class="row-certificado">
-
 					<ul class="certificados">
 						<span><img onclick="certificados.close()" class="fechar_certificado" src="./assets/fechar.svg"
 								alt="fechar"></span>
@@ -556,57 +579,50 @@
 	</div>
 
 	<!-- Modal dos cursos  -->
-
-
-
-	
-  <main class="container.modal-curso">  </main>
-  </main>
-  <div class="modal-overlay-curso">
-    <div class="modal_curso" id="modal_curso">
-      <!-- sessão portfólio -->
-      <section class=" ">
-        <!-- Card 1 -->
-        <article class="row-curso">
-
-          <ul class="curso">
-            <span><img onclick="ModalCurso.close()" class="fechar_curso" src="./assets/fechar.svg" alt="fechar"></span>
-            <li>
-              <header class="curso_container">
-              </header>
-              <section class="flex">
-                <div>
-                  <img src="./img/Curso1.png">
-                  <p>Javascript</p>
-                </div>
-                <div>
-                  <img src="./img/Curso2.png">
-                  <p>Github</p>
-                </div>
-                <div>
-                  <img src="./img/Curso3.png">
-                  <p>Angular</p>
-                </div>
-                <div>
-                  <img src="./img/Curso4.png">
-                  <p>Design UX/UI</p>
-                </div>
-                <div>
-                  <img src="./img/Curso5.png">
-                  <p>Jquery</p>
-                </div>
-                <div>
-                  <img src="./img/Curso6.png">
-                  <p>Bootstrap</p>
-                </div>
-              </section>
-            </li>
-          </ul>
-        </article>
-      </section>
-    </div>
-  </div>
-  </div>
+	<main class="container.modal-curso"> </main>
+	</main>
+	<div class="modal-overlay-curso">
+		<div class="modal_curso" id="modal_curso">
+			<section class=" ">
+				<article class="row-curso">
+					<ul class="curso">
+						<span><img onclick="ModalCurso.close()" class="fechar_curso" src="./assets/fechar.svg" alt="fechar"></span>
+						<li>
+							<header class="curso_container">
+							</header>
+							<section class="flex">
+								<div>
+									<img src="./img/Curso1.png">
+									<p>Javascript</p>
+								</div>
+								<div>
+									<img src="./img/Curso2.png">
+									<p>Github</p>
+								</div>
+								<div>
+									<img src="./img/Curso3.png">
+									<p>Angular</p>
+								</div>
+								<div>
+									<img src="./img/Curso4.png">
+									<p>Design UX/UI</p>
+								</div>
+								<div>
+									<img src="./img/Curso5.png">
+									<p>Jquery</p>
+								</div>
+								<div>
+									<img src="./img/Curso6.png">
+									<p>Bootstrap</p>
+								</div>
+							</section>
+						</li>
+					</ul>
+				</article>
+			</section>
+		</div>
+	</div>
+	</div>
 
 	<!-- Footer -->
 

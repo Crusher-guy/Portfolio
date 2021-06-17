@@ -23,7 +23,7 @@
 .modal-overlay-certificado.active {
   opacity: 1;
   visibility: visible;
-  transition: all 0.1s ease 0.1s;
+  /* transition: all 0.1s ease 0.1s; */
 }
 
 .modal_certificado {
