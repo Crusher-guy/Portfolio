@@ -31,6 +31,12 @@
 	<link rel="stylesheet" href="./css/certificados.css">
 	<link rel="stylesheet" href="./css/cursos.css">
 	<link rel="stylesheet" href="./css/modalPortfolioCard2.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard3.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard4.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard5.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard6.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard7.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard8.css">
 	<link rel="stylesheet" href="./css/responsivo.css">
 	<script src="./index.js"></script>
 	<script src="js/JQuery3.3.1.js"></script>
@@ -364,7 +370,7 @@
 						<h2>Aplicação Web</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de aplicação de Gestão de trabalho freelance</p>
-							<a class="saiba_mais" href="/jobsCalc.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card3" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
@@ -378,7 +384,7 @@
 						<h2>Website</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de website para alocação de desafios realizados com CSS</p>
-							<a class="saiba_mais" href="/gridLayout.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card4" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
@@ -392,7 +398,7 @@
 						<h2>Website</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de website fictício com layout flexbox</p>
-							<a class="saiba_mais" href="/fleboxLayout.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card5" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
@@ -406,7 +412,7 @@
 						<h2>Website</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de website fictício para loja de produtos veganos. Só HTML e CSS</p>
-							<a class="saiba_mais" href="/lojaVegana.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card6" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
@@ -421,7 +427,7 @@
 						<h2>Projeto no Figma</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação do layout de uma barbearia no Figma.Website e tablet</p>
-							<a class="saiba_mais" href="/barbearia.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card7" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
@@ -436,7 +442,7 @@
 						<h2>Projeto no Figma</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de layout do meu portfólio. Website e mobile </p>
-							<a class="saiba_mais" href="/portfolioDetalhes.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card8" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
@@ -530,6 +536,69 @@
 			</div>
 		</div>
 	</div>
+
+
+	<!-- Modal saiba mais portfolio card3 -->
+	<div class="container.modal-card3">
+		<div class="modal-overlay-card3">
+			<div class="modal-card3" id="modal-card3">
+				<section class="portfolio-modal-card3 ">
+					<article class="row-modal-card3">
+						<ul class="cards_portfolio_modal-card3">
+							<span><img onclick="Modal.close()" class="fechar-card3" src="./assets/fechar.svg" alt="fechar"></span>
+							<li>
+								<header class="portfolio-imagem-modal-card3">
+									<img class="imagem-modal-card3" src="img/JobsCalc.png" alt="JobsCalc">
+								</header>
+								<article class="card-titulo-modal-card3">
+									<h2>Website</h2>
+									<div class="portfólio-descrição-modal-card3">
+										<p class="descrição-card-modal-card3">O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema.</p>
+										<p class="descrição-card-modal-card3">Este projeto foi desenvolvido com as seguintes tecnologias: HTML, CSS, JavaScript, NodeJS, EJS, Express e	SQLite. </p>
+										<a class="saiba-mais-modal-card3" href="https://jobscalcfreelance.herokuapp.com/"
+											target="a_blank">Acesse
+											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</article>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- Modal saiba mais portfolio card4 -->
+	<div class="container.modal-card4">
+		<div class="modal-overlay-card4">
+			<div class="modal-card4" id="modal-card4">
+				<section class="portfolio-modal-card4 ">
+					<article class="row-modal-card4">
+						<ul class="cards_portfolio_modal-card4">
+							<span><img onclick="Modal.close()" class="fechar-card4" src="./assets/fechar.svg" alt="fechar"></span>
+							<li>
+								<header class="portfolio-imagem-modal-card4">
+									<img class="imagem-modal-card4" src="img/gridLayout.png" alt="gridLayout">
+								</header>
+								<article class="card-titulo-modal-card4">
+									<h2>Website</h2>
+									<div class="portfólio-descrição-modal-card4">
+										<p class="descrição-card-modal-card4">Este website foi levantado durante uma atividade da Origamid. O objetivo era exercitar o Grid Layout e a responsividade.</p>
+										<p class="descrição-card-modal-card4">O projeto foi desenvolvido com as seguintes tecnologias: HTML e CSS Grid. Foram usados conceitos básicos e avançados. </p>
+										<a class="saiba-mais-modal-card4" href="https://leokattah.github.io/WildBeast/"
+											target="a_blank">Acesse
+											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+									</div>
+								</article>
+							</li>
+						</ul>
+					</article>
+				</section>
+			</div>
+		</div>
+	</div>
+
 
 	<!-- Modal dos certificados  -->
 
