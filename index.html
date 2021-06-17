@@ -37,6 +37,7 @@
 	<link rel="stylesheet" href="./css/modalPortfolioCard6.css">
 	<link rel="stylesheet" href="./css/modalPortfolioCard7.css">
 	<link rel="stylesheet" href="./css/modalPortfolioCard8.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard9.css">
 	<link rel="stylesheet" href="./css/responsivo.css">
 	<script src="./index.js"></script>
 	<script src="js/JQuery3.3.1.js"></script>
@@ -457,11 +458,10 @@
 						<h2>Aplicação Back-End</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de blog com login de admin e usuário com acessos diferentes</p>
-							<a class="saiba_mais" href="/blog.html">Saiba mais</a>
+							<a id="saiba_mais_portfolio_card9" href="#" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</article>
 				</li>
-
 				</header>
 				</div>
 			</ul>
@@ -484,9 +484,8 @@
 								<article class="card-titulo-modal">
 									<h2>Website</h2>
 									<div class="portfólio-descrição-modal">
-										<p class="descrição-card-modal">A criação deste website para alocação de desafios
-											realizados com CSS foi minha iniciativa. Foi a forma como encontrei para
-											exercitar HTML, CSS e layout.</p>
+										<p class="descrição-card-modal">Criei este website para alocação de desafios
+											realizados com CSS. Foi a forma como encontrei para exercitar alguns conceitos de HTML, CSS e layout.</p>
 										<p class="descrição-card-modal">Como não sabia muito de responsividade na ocasição,
 											busquei ajuda com um desenvolvedor front-end que era contato no LinkedIn. Seu
 											trabalho e ajuda foram reconhecidos no website.</p>
@@ -517,7 +516,7 @@
 									<img class="imagem-modal-card2" src="img/DevFinance.png" alt="devFinance">
 								</header>
 								<article class="card-titulo-modal-card2">
-									<h2>Website</h2>
+									<h2>Aplicação</h2>
 									<div class="portfólio-descrição-modal-card2">
 										<p class="descrição-card-modal-card2">Esta aplicação foi desenvolvida durante a atividade de
 											Rocketseat. Tanto o front-end quanto o back-end foram levantados do zero. </p>
@@ -551,7 +550,7 @@
 									<img class="imagem-modal-card3" src="img/JobsCalc.png" alt="JobsCalc">
 								</header>
 								<article class="card-titulo-modal-card3">
-									<h2>Website</h2>
+									<h2>Aplicação</h2>
 									<div class="portfólio-descrição-modal-card3">
 										<p class="descrição-card-modal-card3">O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema.</p>
 										<p class="descrição-card-modal-card3">Este projeto foi desenvolvido com as seguintes tecnologias: HTML, CSS, JavaScript, NodeJS, EJS, Express e	SQLite. </p>
@@ -675,7 +674,7 @@
 									<img class="imagem-modal-card7" src="img/BarbeariaV2.png" alt="Barbearia">
 								</header>
 								<article class="card-titulo-modal-card7">
-									<h2>Website</h2>
+									<h2>Projeto no Figma</h2>
 									<div class="portfólio-descrição-modal-card7">
 										<p class="descrição-card-modal-card7">Projeto de design feito no Figma durante atividade do curso Chief of Design.</p>
 										<p class="descrição-card-modal-card7">Tomei a iniciativa de criar o layout responsivo para tablet.  </p>
@@ -702,10 +701,10 @@
 							<span><img onclick="Modal.close()" class="fechar-card8" src="./assets/fechar.svg" alt="fechar"></span>
 							<li>
 								<header class="portfolio-imagem-modal-card8">
-									<img class="imagem-modal-card8" src="img//portfolio.png" alt="Portfólio">
+									<img class="imagem-modal-card8" src="img/portfolio.png" alt="Portfólio">
 								</header>
 								<article class="card-titulo-modal-card8">
-									<h2>Website</h2>
+									<h2>Projeto no Figma</h2>
 									<div class="portfólio-descrição-modal-card8">
 										<p class="descrição-card-modal-card8">Projeto de design feito no Figma com objetivo de levantar meu portfólio.</p>
 										<p class="descrição-card-modal-card8">Tomei a iniciativa de criar o layout tanto para web quanto mobile.</p>
@@ -722,6 +721,37 @@
 			</div>
 		</div>
 	</div>
+
+
+		<!-- Modal saiba mais portfolio card9 -->
+		<div class="container.modal-card9">
+			<div class="modal-overlay-card9">
+				<div class="modal-card9" id="modal-card9">
+					<section class="portfolio-modal-card9 ">
+						<article class="row-modal-card9">
+							<ul class="cards_portfolio_modal-card9">
+								<span><img onclick="Modal.close()" class="fechar-card9" src="./assets/fechar.svg" alt="fechar"></span>
+								<li>
+									<header class="portfolio-imagem-modal-card9">
+										<img class="imagem-modal-card9" src="img/Blog.png" alt="Blog">
+									</header>
+									<article class="card-titulo-modal-card9">
+										<h2>Aplicação</h2>
+										<div class="portfólio-descrição-modal-card9">
+											<p class="descrição-card-modal-card9">Projeto para estudo de NodeJS. Algumas tecnologias usadas: NodeJS, Handlebars, Express, Passport, Mongoose, Bootstrap.</p>
+											<p class="descrição-card-modal-card9">A aplicação cria, salva e edita os dados das postagens como: título, descrição, conteúdo, data, categoria pertencente, informações dos comentários e respostas.</p>
+											<a class="saiba-mais-modal-card9" href="https://blognodejs-app.herokuapp.com/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</article>
+								</li>
+							</ul>
+						</article>
+					</section>
+				</div>
+			</div>
+		</div>
 
 
 	<!-- Modal dos certificados  -->
