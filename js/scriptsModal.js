@@ -334,3 +334,41 @@ window.onclick = function(event) {
   }
 }
 
+
+
+//  Modal saiba mais portfolio card10
+// Get the modal from portólio
+var modal = document.getElementById('modal-card10');
+
+// Get the button that opens the modal
+var btn = document.getElementById('saiba_mais_portfolio_card10');
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName('fechar-card10')[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+  document.querySelector('.modal-overlay-card10').classList.add('active');
+};
+
+// When the user clicks on <span> (x), close the modal 
+span.onclick = function () {
+  document.querySelector('.modal-overlay-card10').classList.remove('active');
+};
+
+// When user clicks anywhere outside of the modal, close it
+// span.addEventListener('click', function (event) {
+//   if (event.target == modal) {
+//     document.querySelector('.modal-overlay-card10').classList.remove('active');
+//   }
+// });
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    document.querySelector('.modal-overlay-card10').classList.remove('active');
+  }
+  if (event.target == modal) {
+    document.querySelector('.modal-overlay-card10').classList.remove('active');
+  }
+}
+
