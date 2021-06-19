@@ -62,12 +62,18 @@ max-width: 100%;
   border: 2px solid var(--color-lilas-botao);
   align-self: left;
   text-align: center;
+  line-height: 0.5rem;
 }
+
+.header-descrição input:hover{
+
+  background: var(--color-lilas-botao);
+  transition: 0.3s;
+} 
 
  .img-Leo1 {
   width: 400px;
   height: 400px;
-  /* margin: -40px 85px 0 85px; */
   position: absolute;
   right: 0px;
   margin-right: 0px;

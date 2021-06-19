@@ -11,7 +11,6 @@
   text-align: center;
   margin-top: 40px;
   height: 100%;
-  /* background-color: aqua; */
 }
 
 .formacao_box .formacao:before {
@@ -25,7 +24,6 @@
 }
 
 .formacao_adademica {
-  /* background-color: blue; */
   width: 100%;
   height: 500px;
   display: flex;
@@ -38,7 +36,6 @@
 .formacao_adademica .left_box {
   display: flex;
   flex-direction: row;
-  /* background-color: blueviolet; */
  padding: 65px;
   max-width: 370px;
   height: 450px;
@@ -53,8 +50,6 @@
 
 .formacao_adademica .img2 {
   transform: translate(-440px, 65px);
-  /* transform: translateX(-455px);
-  transform: translateY(80px); */
   max-height: 315px;
 }
 
@@ -64,9 +59,6 @@
   height: 450px;
   display: flex;
   flex-direction: column;
-  /* background-color: blueviolet; */
-
-
 }
 
 .graduacao ul li {
@@ -104,9 +96,9 @@
 
 .saiba_mais ul li {
   display: inline-flex;
-  /* background-color: chartreuse; */
   text-align: right;
 }
+
 
 .saiba_mais ul li + li a {
   margin-left: 165px;
@@ -114,6 +106,14 @@
   margin-bottom: 60px;
   color: var(--color-lilas-botao);
 }
+
+.saiba_mais_certificado:hover {
+color: var(--color-lilas-botaoHover);
+}
+
+.saiba_mais_curso:hover {
+  color: var(--color-lilas-botaoHover);
+  }
 
 .right_box h3,
 p {
@@ -123,8 +123,7 @@ p {
 .saiba_mais ul .saiba-li1 a {
   margin-left:60px;
   margin-bottom: 60px;
-  color: var(--color-lilas-botao);
-display: inline-block;
+  display: inline-block;
 }
 
 .saiba_mais ul .saiba-li2 a {

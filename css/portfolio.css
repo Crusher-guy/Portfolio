@@ -59,7 +59,7 @@
 
 .portfolio-imagem img {
   max-width: 100%;
-  height: 187px;
+  /* height: 187px; */
   border-radius: 2px;
 }
 
@@ -89,4 +89,8 @@
   float: right;
   margin-bottom: 30px;
   background: transparent;
+}
+
+.portfólio-descrição .saiba_mais:hover{ 
+color: var(--color-lilas-botaoHover);
 }

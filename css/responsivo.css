@@ -212,3 +212,10 @@ margin-top: 0px;
     margin-top: 570px;
   }
 }
+
+@media (max-width:450px){
+  .sobre-section img{
+    max-width: 100%;
+    display: block;
+  }
+}
