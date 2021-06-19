@@ -72,8 +72,9 @@ max-width: 100%;
 } 
 
  .img-Leo1 {
-  width: 400px;
-  height: 400px;
+  /* width: 400px;
+  height: 400px; */
+  max-width: 100%;
   position: absolute;
   right: 0px;
   margin-right: 0px;

@@ -111,7 +111,7 @@
 color: var(--color-lilas-botaoHover);
 }
 
-.saiba_mais_curso:hover {
+.saiba_mais ul .saiba-li2 a:hover {
   color: var(--color-lilas-botaoHover);
   }
 

@@ -23,8 +23,8 @@
 }
 
 .sobre-section img {
-  width: 450px;
-  height: 450px;
+  /* width: 450px;
+  height: 450px; */
   max-width: 100%;
   background-color: var(--color-preto-card);
 }
@@ -49,11 +49,11 @@
 
 .sobre-section .descrição span {
   background-color: var(--color-lilas-botao);
-width: 50px;
+width: 38px;
   height: 1px;
   border:  var(--color-lilas-botao);
   margin-top: 56px;
-  transform: translateX(-44px);
+  transform: translateX(-54px);
 }
 
 .sobre-section .descrição p {
