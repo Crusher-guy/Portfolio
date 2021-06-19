@@ -194,3 +194,21 @@ margin-left: 0;
 margin-top: 0px;
   }
 }
+
+@media (max-width: 304px){
+  .habilidades {
+    margin-top: 510px;
+  }
+}
+
+@media (max-width: 266px){
+  .habilidades {
+    margin-top: 530px;
+  }
+}
+
+@media (max-width: 256px){
+  .habilidades {
+    margin-top: 570px;
+  }
+}

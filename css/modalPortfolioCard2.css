@@ -45,7 +45,7 @@
   background: transparent;
 }
 
-.cards_portfolio_modal-card2{
+.cards_portfolio_modal-card2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -64,7 +64,7 @@
   flex-wrap: wrap;
 }
 
-.portfolio-imagem-modal-card2{
+.portfolio-imagem-modal-card2 {
   text-align: center;
   padding: 30px;
   background: transparent;

@@ -70,6 +70,7 @@
 .content .email span,
 .left .content .social {
   background: var(--color-cinza-card);
+  padding-bottom: 15px;
 }
 
 .left .content .social a {
@@ -79,13 +80,14 @@
 .left .content .social a span {
   height: 40px;
   width: 40px;
-  line-height: 30px;
+  line-height: 40px;
   text-align: center;
   font-size: 22px;
   border-radius: 4px;
   transition: 0.2s;
   color: var(--color-lilas-botao);
   background: var(--color-cinza-card);
+
 }
 
 .left .content .social a + a span {
@@ -96,23 +98,25 @@
   background: var(--color-lilas-botao);
 }
 .center .content .fas {
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
   text-align: center;
   border-radius: 50%;
   transition: 0.2s;
   cursor: pointer;
-  line-height: 50px;
+  line-height: 40px;
   background: var(--color-cinza-card);
 }
 
 .center .content .fas img {
   background: transparent;
-  /* transform: translate(0px, -10px); */
+
 }
+
 
 .center .content .fas:hover {
   background: var(--color-lilas-botao);
+  border-radius: 4px;
 }
 
 .center .content .text {
@@ -130,7 +134,9 @@
   margin-bottom: 2px;
   color: var(--color-cinza-subtitulo);
   background: var(--color-cinza-card);
+  padding-top:5px;
 }
+
 .right form .msg {
   height: 67px;
   background: var(--color-cinza-card);
@@ -138,6 +144,7 @@
 .right form input,
 .right form textarea {
   width: 100%;
+  height: 25px;
   font-size: 1rem;
   background: var(--color-preto-card-portfolio);
   padding-left: 10px;
@@ -152,7 +159,6 @@
   text-align: start;
 }
 .right form .btn {
-  margin-top: 10px;
   background: var(--color-cinza-card);
 }
 .right form .btn button {
@@ -165,6 +171,7 @@
   cursor: pointer;
   transition: 0.3s;
   border-radius: 4px;
+  margin-top: 20px;
 }
 .right form .btn button:hover {
   background: #000;
