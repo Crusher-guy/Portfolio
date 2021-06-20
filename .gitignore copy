@@ -1,6 +1,0 @@
-node_modules
-.node_modules
-.gitignore
-.env
-.env copy
-.gitignore copy
