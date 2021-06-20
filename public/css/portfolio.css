@@ -94,3 +94,7 @@
 .portfólio-descrição .saiba_mais:hover{ 
 color: var(--color-lilas-botaoHover);
 }
+
+.saiba_mais ul .saiba-li1 a{
+  color: var(--color-lilas-botaoHover);
+}
