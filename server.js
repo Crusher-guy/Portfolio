@@ -1,6 +1,7 @@
 const express = require('express'); // imporando o pacote.
 const app = express(); // inicializandno o pacote.
 const nodemailer = require('nodemailer'); //importando o pacote.
+require('dotenv').config()
 
 const PORT = process.env.PORT || 5000;
 
@@ -27,7 +28,7 @@ app.post('/', (req, res) => {
 
   const transporter = nodemailer.createTransport({
     host: process.env.host,
-    port: process.env.port, // port for secure SMTP
+    port: process.env.port_server, // port for secure SMTP
     secureConnection: false, // TLS requires secureConnection to be false
     auth: {
       user: process.env.user,
