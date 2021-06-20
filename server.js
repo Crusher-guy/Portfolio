@@ -26,12 +26,12 @@ app.post('/', (req, res) => {
   // });
 
   const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 587, // port for secure SMTP
+    host: process.env.host,
+    port: process.env.port, // port for secure SMTP
     secureConnection: false, // TLS requires secureConnection to be false
     auth: {
-      user: 'devleokattah@gmail.com',
-      pass: 'Brasil-01',
+      user: process.env.user,
+      pass: process.env.pass,
     },
   });
 
