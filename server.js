@@ -1,7 +1,7 @@
 const express = require('express'); // imporando o pacote.
 const app = express(); // inicializandno o pacote.
 const nodemailer = require('nodemailer'); //importando o pacote.
-require('dotenv').config()
+require('dotenv').config() //importando o pacote.
 
 const PORT = process.env.PORT || 5000;
 
@@ -16,15 +16,6 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   console.log(req.body);
-
-  // Agora é hora de enviar os dados para o GMAIL. O método abaixo está descrito na documentação nodemailer.
-  // const transporter = nodemailer.createTransport({
-  //   service: 'gmail',
-  //   auth: {
-  //     user: 'leokattah@gmail.com',
-  //     pass: 'Subway-01'
-  //   },
-  // });
 
   const transporter = nodemailer.createTransport({
     host: process.env.host,
