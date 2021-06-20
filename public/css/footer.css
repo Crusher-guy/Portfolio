@@ -169,7 +169,7 @@
   background: var(--color-lilas-botao);
   font-size: 1.1rem;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
   border-radius: 4px;
   margin-top: 20px;
 }
