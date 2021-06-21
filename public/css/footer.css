@@ -23,7 +23,6 @@
 }
 
 .box_footer {
-  /* background: #ee82ee; */
   padding: 20px;
   background: var(--color-cinza-card);
 }
@@ -68,7 +67,7 @@
 .content .phone,
 .content .email,
 .content .email span,
-.left .content .social {
+.left .content .social .whatsapp .telefone .endereço {
   background: var(--color-cinza-card);
   padding-bottom: 15px;
 }
@@ -78,9 +77,9 @@
   background: var(--color-cinza-card);
 
 }
-.left .content .social a span {
-  height: 40px;
-  width: 40px;
+.left .content .social a img {
+  height: 25px;
+  width: 25px;
   line-height: 40px;
   text-align: center;
   font-size: 22px;
@@ -91,31 +90,29 @@
 
 }
 
-.left .content .social a + a span {
+.left .content .social a + a img {
   margin-left: 15px;
 }
 
-.left .content .social a span:hover {
+.left .content .social a img:hover {
   background: var(--color-lilas-botao);
 }
-.center .content .fas {
-  height: 40px;
-  width: 40px;
+.center .content img {
+  height: 25px;
+  width: 25px;
   text-align: center;
-  border-radius: 50%;
   transition: 0.2s;
   cursor: pointer;
   line-height: 40px;
   background: var(--color-cinza-card);
 }
 
-.center .content .fas img {
+.center .content  img, .social, .phone, .whatsapp {
   background: transparent;
 
 }
 
-
-.center .content .fas:hover {
+.center .content img:hover {
   background: var(--color-lilas-botao);
   border-radius: 4px;
 }
