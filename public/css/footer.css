@@ -76,6 +76,7 @@
 .left .content .social a {
   padding: 0 2px;
   background: var(--color-cinza-card);
+
 }
 .left .content .social a span {
   height: 40px;
