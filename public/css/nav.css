@@ -1,4 +1,10 @@
 /* barra menu hamburguer*/
+.menuHamburger{
+  float:right;
+  margin-right:15px; 
+  color: var(--color-cinza-icones)
+}
+
 .navbar {
   background: var(--color-preto-background);
   font-weight: bold;
@@ -60,7 +66,7 @@ transform: translateY(-40px);
   display: none;
 }
 
-nav .menu-btn i{
+nav .fechar-menuHambuger img {
   color: #fff;
   font-size: 22px;
   cursor: pointer;
@@ -72,11 +78,14 @@ input[type="checkbox"]{
 
 @media (max-width: 858px) {
 
-  nav .menu-btn i{
+  nav .fechar-menuHambuger img{
     display: block;
   }
-  #click:checked ~ .menu-btn i:before{
+  #click:checked ~ nav .fechar-menuHambuger img:before{
     content: "\f00d";
+    float: left; 
+    margin-left: 15px;
+    color: var(--color-cinza-icones)
   }
   nav ul{
     position: fixed;
