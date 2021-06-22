@@ -106,14 +106,9 @@
   margin-bottom: 60px;
   color: var(--color-lilas-botao);
 }
-
-.saiba_mais_certificado:hover {
-color: var(--color-lilas-botaoHover);
-}
-
-.saiba_mais ul .saiba-li2 a:hover {
+.saiba_mais ul li + li a:hover {
   color: var(--color-lilas-botaoHover);
-  }
+}
 
 .right_box h3,
 p {
@@ -129,7 +124,6 @@ p {
 .saiba_mais ul .saiba-li2 a {
   margin-left:100px;
   margin-bottom: 60px;
-  color: var(--color-lilas-botao);
 display: inline-block;
 }
 
