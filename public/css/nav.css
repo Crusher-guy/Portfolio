@@ -1,9 +1,4 @@
-/* barra menu hamburguer*/
-.menuHamburger{
-  float:right;
-  margin-right:15px; 
-  color: var(--color-cinza-icones)
-}
+
 
 .navbar {
   background: var(--color-preto-background);
@@ -53,7 +48,8 @@ transform: translateY(-40px);
   border-radius: 3px;
 }
 
-.checkbtn {
+/* Menu hamburger  */
+nav .menu-btn i{
   font-size: 30px;
   color: white;
   float: right;
@@ -62,31 +58,24 @@ transform: translateY(-40px);
   cursor: pointer;
   display: none;
 }
-#check {
-  display: none;
-}
 
-nav .fechar-menuHambuger img {
-  color: #fff;
-  font-size: 22px;
-  cursor: pointer;
-  display: none;
-}
 input[type="checkbox"]{
   display: none;
 }
 
 @media (max-width: 858px) {
 
-  nav .fechar-menuHambuger img{
+  nav .menu-btn i{
     display: block;
   }
-  #click:checked ~ nav .fechar-menuHambuger img:before{
+
+  #click:checked ~ .menu-btn i:before{
     content: "\f00d";
-    float: left; 
-    margin-left: 15px;
-    color: var(--color-cinza-icones)
+    /* float: left;  */
+    /* margin-left: 15px;
+    color: var(--color-cinza-icones) */
   }
+
   nav ul{
     position: fixed;
     top: 80px;
@@ -124,9 +113,4 @@ input[type="checkbox"]{
   .navbar ul li a::after{
     background: transparent;
   }
-}
-
-.menuHmaburger{
-  float: right; 
-  margin-right: 15px;
 }
