@@ -106,9 +106,9 @@
   margin-bottom: 60px;
   color: var(--color-lilas-botao);
 }
-.saiba_mais ul li + li a:hover {
+/* .saiba_mais ul li + li a:hover {
   color: var(--color-lilas-botaoHover);
-}
+} */
 
 .right_box h3,
 p {
