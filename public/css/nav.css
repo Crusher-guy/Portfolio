@@ -75,6 +75,11 @@ input[type="checkbox"]{
     /* margin-left: 15px;
     color: var(--color-cinza-icones) */
   }
+  #click:checked ~ .menu-btn i:before{
+z-index: 1;
+position:fixed;
+  }
+
 
   nav ul{
     position: fixed;
