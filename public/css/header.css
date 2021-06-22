@@ -2,7 +2,7 @@
   /* background: turquoise; */
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
+  height: 100vh;
 }
 
 .container-header .icones_sociais {
