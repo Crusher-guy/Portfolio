@@ -8,7 +8,7 @@ display: none;
 }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1065px) {
  .img-Leo1 {
     display: none;
   }
@@ -245,5 +245,11 @@ margin-top: 0px;
   .sobre-section img{
     max-width: 100%;
     display: block;
+  }
+}
+
+@media (max-width: 856px){
+  .sobre-section{
+    height: 358px;
   }
 }
