@@ -75,13 +75,21 @@
   color: transparent;
 }
 
-.datali {
+/* .datali {
   background-color: transparent;
   text-align: center;
   margin-top: -9px;
   justify-content: center;
   color: var(--color-cinza-background);
+} */
+
+.graduacao ul .data h4{
+  /* background: tomato; */
+  align-content: center;
+  background: transparent;
+  transform: translateY(-10px);
 }
+
 
 .texto {
   margin-top: 20px;
