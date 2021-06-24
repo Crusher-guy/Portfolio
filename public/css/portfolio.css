@@ -84,14 +84,13 @@
   background: transparent;
 }
 
-/* .portfólio-descrição .saiba_mais {
+.portfólio-descrição .saiba_mais {
   color: var(--color-lilas-botao);
   float: right;
-  margin-bottom: 30px;
   background: transparent;
-}
+} 
 
 .portfólio-descrição .saiba_mais:hover{ 
 color: var(--color-lilas-botaoHover);
-} */
+} 
 

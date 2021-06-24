@@ -19,13 +19,6 @@
   --shadow: #1b1629;
   --descriptions-color: #969cb3;
 }
-
-/* .container.modal {
-  width: min(90vw, 960px);
-  margin: auto;
-  background: violet;
-} */
-
 /* Titles ===================== */
 h2 {
   margin-top: 3.2rem;
@@ -85,6 +78,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .row-modal {
   flex-direction: row;
@@ -150,10 +144,11 @@ a:hover {
   margin: 20px;
 }
 
-.row-modal li img {
+.row-modal .fechar{
   position: absolute;
-  top: 10px;
-  right: 25px;
+  right: 15px;
+  top:15px;
+  z-index: 1000;
 }
 
 .portfólio-descrição-modal img {
