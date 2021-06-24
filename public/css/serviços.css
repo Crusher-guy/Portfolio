@@ -14,7 +14,7 @@ flex-wrap: wrap;
 .container, .serviços_box{
   background: transparent;
 }
-.serviços_box h1 {
+.serviços_box h2 {
   height: 40px;
   margin: 0 auto;
   text-align: center;
