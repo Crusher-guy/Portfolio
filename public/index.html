@@ -6,8 +6,8 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Leonardo Kattah | Portfólio" />
 	<META NAME="author" CONTENT="Leonardo Kattah">
-		<META NAME="keywords" CONTENT="portfolio, Leonardo Kattah, portfolio Leonardo kattah">
-	<meta property=”og:site_name” content="Leonardo Kattah | Portfólio" />
+	<META NAME="keywords" CONTENT="portfolio, Leonardo Kattah, portfolio Leonardo kattah">
+	<meta property=”og:site_name” content="https://devleokattah.herokuapp.com/" />
 	<meta property="og:description"
 		content="Sou Desenvolvedor Front-end estusiasta em UX/UI e por soluções que geram grandes resultados." />
 	<meta property="og:url" content="https://devleokattah.herokuapp.com" />
@@ -50,6 +50,7 @@
 	<script src="./js/lightslider.js"></script>
 	<title>Leonardo Kattah | Portfólio </title>
 </head>
+
 <body>
 	<div>
 		<!-- estrutura grid de toda a página -->
@@ -145,7 +146,7 @@
 							<!--slider-box-->
 							<div class="box">
 								<!--model-->
-								<img src="./assets/javascript.svg" class="model">
+								<img src="./assets/javascript.svg" class="model" alt="javascript logo">
 								<!--details-->
 								<div class="details">
 									<p>JAVASCRIPT</p>
@@ -157,7 +158,7 @@
 							<!--slider-box-->
 							<div class="box">
 								<!--model-->
-								<img src="./assets/Typescript.svg" class="model">
+								<img src="./assets/Typescript.svg" class="model" alt="typescript logo">
 								<!--details-->
 								<div class="details">
 									<p>TYPESCRIPT</p>
@@ -169,7 +170,7 @@
 							<!--slider-box-->
 							<div class="box">
 								<!--model-->
-								<img src="./assets/React.svg" class="model">
+								<img src="./assets/React.svg" class="model" alt='react logo'>
 								<!--details-->
 								<div class="details">
 									<p>REACT</p>
@@ -181,7 +182,7 @@
 							<!--slider-box-->
 							<div class="box">
 								<!--model-->
-								<img src="./assets/Nodejs.svg" class="model">
+								<img src="./assets/Nodejs.svg" class="model" alt="nodejs logo">
 								<!--details-->
 								<div class="details">
 									<p>NODEJS</p>
@@ -194,7 +195,7 @@
 							<!--slider-box-->
 							<div class="box">
 								<!--model-->
-								<img src="./assets/VScode.svg" class="model">
+								<img src="./assets/VScode.svg" class="model" alt="vscode logo">
 								<!--details-->
 								<div class="details">
 									<p>VSCODE</p>
@@ -207,7 +208,7 @@
 							<!--slider-box-->
 							<div class="box">
 								<!--model-->
-								<img src="./assets/Insominia.svg" class="model">
+								<img src="./assets/Insominia.svg" class="model" alt='Insominia logo'>
 								<!--details-->
 								<div class="details">
 									<p>INSOMNIA</p>
@@ -220,7 +221,7 @@
 							<!--slider-box-->
 							<div class="box">
 								<!--model-->
-								<img src="./assets/Figma.svg" class="model">
+								<img src="./assets/Figma.svg" class="model" alt="figma logo">
 								<!--details-->
 								<div class="details">
 									<p>FIGMA</p>
@@ -229,6 +230,7 @@
 						</li>
 					</ul>
 				</div>
+			</div>
 		</section>
 		<section class="formacao_box container">
 			<h1 class="formacao">Formação</h1>
@@ -237,14 +239,12 @@
 					<div class="graduacao">
 						<ul>
 							<li>Gradução</li>
-							<ul class="data">
-								<li class="datali">2002</li>
-							</ul>
+							<li class="data"></li>
+							<li class="datali">2002</li>
 							<li class="texto">Administração de empresas pelo Unicentro Newton Paiva</li>
 							<li class="especilizacao">Especialização</li>
-							<ul class="data">
-								<li class="datali">2004</li>
-							</ul>
+							<li class="data"></li>
+							<li class="datali">2004
 							<li class="texto">Gestão de Negócios pela FGV - Fundação Getúlio Vargas</li>
 						</ul>
 					</div>
@@ -253,204 +253,212 @@
 					<div class="saiba_mais">
 						<ul>
 							<li>Certificados</li>
-							<li class="saiba-li1"><a id="saiba_mais_certificado" href="#saiba_mais_certificado" onclick="ModalCertificado.open()"
-									class="saiba_mais_certificado">Saiba Mais</a></li>
+							<li class="saiba-li1"><a id="saiba_mais_certificado" href="#saiba_mais_certificado"
+									onclick="ModalCertificado.open()" class="saiba_mais_certificado">Saiba Mais</a></li>
 						</ul>
 					</div>
 					<p>Bootcamps Fullstack, Desenvolvimento Web, Html5, CSS5, Javascript ES6</p>
 					<div class="saiba_mais">
 						<ul>
-							<li class="cursos" >Cursos</li>
+							<li class="cursos">Cursos</li>
 							<li class="saiba-li2"><a href="#saiba_mais_curso" onclick="ModalCurso.open()" class="saiba_mais_curso"
 									id="saiba_mais_curso">Saiba Mais</a></li>
 						</ul>
-
 					</div>
 					<p class="cursosjs">Cursos de Javascript, Bootstrap, Angular, Figma, Illustrator</p>
+					<div class="bg_serviços_box" id="serviços-nav">
+						<section class="container serviços_box">
+							<h1 class="serviços">Serviços</h1>
+					</div>
+					<div class="cards">
+						<div class="left_box grid-8">
+							<div class="website_card">
+								<ul>
+									<li><img src="./assets/dev_web_icon_lilás.svg" alt="dev_web_icon_lilás"></li>
+									<li>WEBSITES</li>
+									<li>RESPONSIVIDADE</li>
+									<P>Desenvolvimento de websites profissionais e responsíveis gerando uma ótima experiência do usuário.</P>
+								</ul>
+							</div>
+						</div>
+						<div class="right_box grid-8">
+							<div class="website_card">
+								<ul>
+									<li><img src="./assets/UI_UX_icone_lilás.svg" alt="dev_web_icon_lilás"></li>
+									<li>UX</li>
+									<li>PROTOTIPAGEM</li>
+									<P>Desenvolvimento de protótipos para validação do fluxo da experiência do usuário.</P>
+							</div>
+						</div>
+					</div>
+				</div>
 		</section>
-		<div class="bg_serviços_box" id="serviços-nav">
-			<section class="container serviços_box">
-				<h1 class="serviços">Serviços</h1>
-		</div>
-		<div class="cards">
-			<div class="left_box grid-8">
-				<div class="website_card">
-					<ul>
-						<li><img src="./assets/dev_web_icon_lilás.svg" alt="dev_web_icon_lilás"></li>
-						<li>WEBSITES</li>
-						<li>RESPONSIVIDADE</li>
-						<P>Desenvolvimento de websites profissionais e responsíveis gerando uma ótima experiência do usuário. </P>
-				</div>
-			</div>
-			<div class="right_box grid-8">
-				<div class="website_card">
-					<ul>
-						<li><img src="./assets/UI_UX_icone_lilás.svg" alt="dev_web_icon_lilás"></li>
-						<li>UX</li>
-						<li>PROTOTIPAGEM</li>
-						<P>Desenvolvimento de protótipos para validação do fluxo da experiência do usuário.</P>
-				</div>
-			</div>
-		</div>
+
+		<!-- sessão portfólio -->
+		<section class="portfolio container" id="portfolio-nav">
+			<header class="title">
+				<h1 class="portfolio_titulo">Portfólio</h1>
+			</header>
+
+			<!-- Card 1 -->
+			<article class="row">
+				<ul class="cards_portfolio">
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/trintaDiasDeCSSV2.png" alt="trintaDiasDeCSS">
+						</header>
+						<article class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website para alocação de desafios realizados com CSS</p>
+								<a id="saiba_mais" href="#saiba_mais" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+
+					<!-- Card 2 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/DevFinance.png" alt="DevFinance">
+						</header>
+						<article class="card_titulo">
+							<h2>Aplicação</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de aplicação para gestão financeira</p>
+								<a id="saiba_mais_portfolio_card1" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+
+					<!-- Card 3 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/JobsCalc.png" alt="JobsCalc">
+						</header>
+						<article class="card_titulo">
+							<h2>Aplicação Web</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de aplicação de Gestão de trabalho freelance</p>
+								<a id="saiba_mais_portfolio_card3" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+					<!-- Card 4 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/gridLayout.png" alt="gridLayout">
+						</header>
+						<article class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício com Grid layout</p>
+								<a id="saiba_mais_portfolio_card4" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+					<!-- Card 5 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/fleboxLayout.png" alt="fleboxLayout">
+						</header>
+						<article class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício com layout flexbox</p>
+								<a id="saiba_mais_portfolio_card5" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+
+					<!-- Card 6 -->
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/LojaVegana.png" alt="LojaVegana">
+						</header>
+						<article class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício para loja de produtos veganos. Só HTML e CSS</p>
+								<a id="saiba_mais_portfolio_card6" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+
+					<!-- Card 7 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/BarbeariaThumbnail.png" alt="BarbeariaThumbnail">
+						</header>
+						<article class="card_titulo">
+							<h2>Projeto no Figma</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação do layout de uma barbearia no Figma.Website e tablet</p>
+								<a id="saiba_mais_portfolio_card7" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+
+					<!-- Card 8 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/portfolioThumbnail.png" alt="portfolioThumbnail">
+						</header>
+						<article class="card_titulo">
+							<h2>Projeto no Figma</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de layout do meu portfólio. Website e mobile </p>
+								<a id="saiba_mais_portfolio_card8" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+
+					<!-- Card 9 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/Blog.png" alt="Blog">
+						</header>
+						<article class="card_titulo">
+							<h2>Aplicação Back-End</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de blog com login de admin e usuário com acessos diferentes</p>
+								<a id="saiba_mais_portfolio_card9" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+
+					<!-- Card 10 -->
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/Bikcraft.png" alt="Bikcraft">
+						</header>
+						<article class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício com Grid layout</p>
+								<a id="saiba_mais_portfolio_card10" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</article>
+					</li>
+					</header>
 	</div>
-	</section>
-
-	<!-- sessão portfólio -->
-	<section class="portfolio container" id="portfolio-nav">
-		<header class="title">
-			<h1 class="portfolio_titulo">Portfólio</h1>
-		</header>
-
-		<!-- Card 1 -->
-		<article class="row">
-			<ul class="cards_portfolio">
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/trintaDiasDeCSSV2.png" alt="trintaDiasDeCSS">
-					</header>
-					<article class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website para alocação de desafios realizados com CSS</p>
-							<a id="saiba_mais" href="#saiba_mais" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-
-				<!-- Card 2 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/DevFinance.png" alt="DevFinance">
-					</header>
-					<article class="card_titulo">
-						<h2>Aplicação</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de aplicação para gestão financeira</p>
-							<a id="saiba_mais_portfolio_card1" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-
-				<!-- Card 3 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/JobsCalc.png" alt="JobsCalc">
-					</header>
-					<article class="card_titulo">
-						<h2>Aplicação Web</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de aplicação de Gestão de trabalho freelance</p>
-							<a id="saiba_mais_portfolio_card3" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-				<!-- Card 4 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/gridLayout.png" alt="gridLayout">
-					</header>
-					<article class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício com Grid layout</p>
-							<a id="saiba_mais_portfolio_card4" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-				<!-- Card 5 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/fleboxLayout.png" alt="fleboxLayout">
-					</header>
-					<article class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício com layout flexbox</p>
-							<a id="saiba_mais_portfolio_card5" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-
-				<!-- Card 6 -->
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/LojaVegana.png" alt="LojaVegana">
-					</header>
-					<article class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício para loja de produtos veganos. Só HTML e CSS</p>
-							<a id="saiba_mais_portfolio_card6" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-
-				<!-- Card 7 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/BarbeariaThumbnail.png" alt="BarbeariaThumbnail">
-					</header>
-					<article class="card_titulo">
-						<h2>Projeto no Figma</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação do layout de uma barbearia no Figma.Website e tablet</p>
-							<a id="saiba_mais_portfolio_card7" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-
-				<!-- Card 8 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/portfolioThumbnail.png" alt="portfolioThumbnail">
-					</header>
-					<article class="card_titulo">
-						<h2>Projeto no Figma</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de layout do meu portfólio. Website e mobile </p>
-							<a id="saiba_mais_portfolio_card8" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-
-				<!-- Card 9 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/Blog.png" alt="Blog">
-					</header>
-					<article class="card_titulo">
-						<h2>Aplicação Back-End</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de blog com login de admin e usuário com acessos diferentes</p>
-							<a id="saiba_mais_portfolio_card9" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-
-				<!-- Card 10 -->
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/Bikcraft.png" alt="Bikcraft">
-					</header>
-					<article class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício com Grid layout</p>
-							<a id="saiba_mais_portfolio_card10" href="#saiba_mais_portfolio_card" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
-						</div>
-					</article>
-				</li>
-				</header>
-				</div>
-			</ul>
-		</article>
+	</ul>
+	</article>
 	</section>
 
 	<!-- Modal do portifólio -->
