@@ -39,6 +39,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .row-modal-card6 {
   flex-direction: row;
@@ -106,10 +107,11 @@
   margin: 20px;
 }
 
-.row-modal-card6 span {
+.row-modal-card6 .fechar-card6 {
   position: absolute;
   top: 10px;
   right: 25px;
+  z-index: 1000;
 }
 
 .portfólio-descrição-modal-card6 img {
