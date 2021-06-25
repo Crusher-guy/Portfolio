@@ -231,7 +231,7 @@
 		</div>
 	</div>
 
-	<div class="formacao_box container">
+	<section class="formacao_box container">
 		<h1 class="formacao">Formação</h1>
 		<div class="formacao_adademica">
 			<div class="left_box">
@@ -269,233 +269,585 @@
 				<p class="cursosjs">Cursos de Javascript, Bootstrap, Angular, Figma, Illustrator</p>
 			</div>
 		</div>
+	</section>
+	</div>
+	<div class="bg_serviços_box" id="serviços-nav">
+		<div class="container serviços_box">
+			<h2 class="serviços">Serviços</h2>
+			<div class="cards">
+				<div class="left_box grid-8">
+					<div class="website_card">
+						<ul>
+							<li><img src="./assets/dev_web_icon_lilás.svg" alt="dev_web_icon_lilás"></li>
+							<li>WEBSITES</li>
+							<li>RESPONSIVIDADE</li>
+							<li>Desenvolvimento de websites profissionais e responsíveis gerando uma ótima experiência do
+								usuário.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="right_box grid-8">
+					<div class="website_card">
+						<ul>
+							<li><img src="./assets/UI_UX_icone_lilás.svg" alt="dev_web_icon_lilás"></li>
+							<li>UX</li>
+							<li>PROTOTIPAGEM</li>
+							<li>Desenvolvimento de protótipos para validação do fluxo da experiência do usuário.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-		<div class="bg_serviços_box" id="serviços-nav">
-			<div class="container serviços_box">
-				<h2 class="serviços">Serviços</h2>
-				<div class="cards">
-					<div class="left_box grid-8">
-						<div class="website_card">
-							<ul>
-								<li><img src="./assets/dev_web_icon_lilás.svg" alt="dev_web_icon_lilás"></li>
-								<li>WEBSITES</li>
-								<li>RESPONSIVIDADE</li>
-								<li>Desenvolvimento de websites profissionais e responsíveis gerando uma ótima experiência do
-									usuário.</li>
+		<!-- sessão portfólio -->
+		<div class="portfolio container" id="portfolio-nav">
+			<header class="title">
+				<h1 class="portfolio_titulo">Portfólio</h1>
+			</header>
+
+			<!-- Card 1 -->
+			<div class="row">
+				<ul class="cards_portfolio">
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/trintaDiasDeCSSV2.png" alt="trintaDiasDeCSS">
+						</header>
+						<div class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website para alocação de desafios realizados com CSS</p>
+								<a id="saiba_mais" href="#saiba_mais" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Card 2 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/DevFinance.png" alt="DevFinance">
+						</header>
+						<div class="card_titulo">
+							<h2>Aplicação</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de aplicação para gestão financeira</p>
+								<a id="saiba_mais_portfolio_card1" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Card 3 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/JobsCalc.png" alt="JobsCalc">
+						</header>
+						<div class="card_titulo">
+							<h2>Aplicação Web</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de aplicação de Gestão de trabalho freelance</p>
+								<a id="saiba_mais_portfolio_card3" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+					<!-- Card 4 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/gridLayout.png" alt="gridLayout">
+						</header>
+						<div class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício com Grid layout</p>
+								<a id="saiba_mais_portfolio_card4" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+					<!-- Card 5 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/fleboxLayout.png" alt="fleboxLayout">
+						</header>
+						<div class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício com layout flexbox</p>
+								<a id="saiba_mais_portfolio_card5" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Card 6 -->
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/LojaVegana.png" alt="LojaVegana">
+						</header>
+						<div class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício para loja de produtos veganos. Só HTML e CSS</p>
+								<a id="saiba_mais_portfolio_card6" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Card 7 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/BarbeariaThumbnail.png" alt="BarbeariaThumbnail">
+						</header>
+						<div class="card_titulo">
+							<h2>Projeto no Figma</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação do layout de uma barbearia no Figma.Website e tablet</p>
+								<a id="saiba_mais_portfolio_card7" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Card 8 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/portfolioThumbnail.png" alt="portfolioThumbnail">
+						</header>
+						<div class="card_titulo">
+							<h2>Projeto no Figma</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de layout do meu portfólio. Website e mobile </p>
+								<a id="saiba_mais_portfolio_card8" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Card 9 -->
+
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/Blog.png" alt="Blog">
+						</header>
+						<div class="card_titulo">
+							<h2>Aplicação Back-End</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de blog com login de admin e usuário com acessos diferentes</p>
+								<a id="saiba_mais_portfolio_card9" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- Card 10 -->
+					<li>
+						<header class="portfolio-imagem">
+							<img src="img/Bikcraft.png" alt="Bikcraft">
+						</header>
+						<div class="card_titulo">
+							<h2>Website</h2>
+							<div class="portfólio-descrição">
+								<p class="descrição_card">Criação de website fictício com Grid layout</p>
+								<a id="saiba_mais_portfolio_card10" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+									class="saiba_mais">Saiba Mais</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<!-- Modal do portifólio -->
+		<!-- Modal saiba mais portfolio card1 -->
+		<div class="container.modal">
+			<div class="modal-overlay">
+				<div class="modal" id="modal">
+					<div class="portfolio-modal ">
+						<div class="row-modal">
+							<img onclick="Modal.close()" class="fechar" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal">
+								<li>
+									<header class="portfolio-imagem-modal">
+										<img class="imagem-modal" src="img/trintaDiasDeCSSV3.png" alt="trintaDiasDeCSS">
+									</header>
+									<div class="card-titulo-modal">
+										<h2>Website</h2>
+										<div class="portfólio-descrição-modal">
+											<p class="descrição-card-modal">Criei este website para alocação de desafios
+												realizados com CSS. Foi a forma como encontrei para exercitar alguns conceitos de HTML, CSS e
+												layout.</p>
+											<p class="descrição-card-modal">Como não sabia muito de responsividade na ocasição,
+												busquei ajuda com um desenvolvedor front-end que era contato no LinkedIn. Seu
+												trabalho e ajuda foram reconhecidos no website.</p>
+											<p class="descrição-card-modal">Os desafios encontrados foram garantir consistência dos cards em
+												telas menores e a configuração menu hamburguer. Usei tags semânticas para ajudar nas buscas </p>
+											<a class="saiba-mais-modal" href="https://leokattah.github.io/30diasDeCSS/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="right_box grid-8">
-						<div class="website_card">
-							<ul>
-								<li><img src="./assets/UI_UX_icone_lilás.svg" alt="dev_web_icon_lilás"></li>
-								<li>UX</li>
-								<li>PROTOTIPAGEM</li>
-								<li>Desenvolvimento de protótipos para validação do fluxo da experiência do usuário.</li>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal saiba mais portfolio card2 -->
+
+		<div class="container.modal-card2">
+			<div class="modal-overlay-card2">
+				<div class="modal-card2" id="modal-card2">
+					<div class="portfolio-modal-card2 ">
+						<div class="row-modal-card2">
+							<img onclick="Modal.close()" class="fechar-card2" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card2">
+								<li>
+									<header class="portfolio-imagem-modal-card2">
+										<img class="imagem-modal-card2" src="img/DevFinance.png" alt="devFinance">
+									</header>
+									<div class="card-titulo-modal-card2">
+										<h2>Aplicação</h2>
+										<div class="portfólio-descrição-modal-card2">
+											<p class="descrição-card-modal-card2">Esta aplicação foi desenvolvida durante a atividade de
+												Rocketseat. Tanto o front-end quanto o back-end foram levantados do zero. </p>
+											<p class="descrição-card-modal-card2">O dev.finances é uma aplicação de controle financeiro, onde
+												é possível cadastrar e excluir transações e ver o saldo de entrada e saída.</p>
+											<p class="descrição-card-modal-card2">As tecnologias usadas foram HTML, CSS e Javascript. </p>
+											<a class="saiba-mais-modal-card2" href="https://leokattah.github.io/DevFinance/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	</div>
 
-
-
-
-	<!-- sessão portfólio -->
-	<div class="portfolio container" id="portfolio-nav">
-		<header class="title">
-			<h1 class="portfolio_titulo">Portfólio</h1>
-		</header>
-
-		<!-- Card 1 -->
-		<div class="row">
-			<ul class="cards_portfolio">
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/trintaDiasDeCSSV2.png" alt="trintaDiasDeCSS">
-					</header>
-					<div class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website para alocação de desafios realizados com CSS</p>
-							<a id="saiba_mais" href="#saiba_mais" onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
+		<!-- Modal saiba mais portfolio card3 -->
+		<div class="container.modal-card3">
+			<div class="modal-overlay-card3">
+				<div class="modal-card3" id="modal-card3">
+					<div class="portfolio-modal-card3 ">
+						<div class="row-modal-card3">
+							<img onclick="Modal.close()" class="fechar-card3" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card3">
+								<li>
+									<header class="portfolio-imagem-modal-card3">
+										<img class="imagem-modal-card3" src="img/JobsCalc.png" alt="JobsCalc">
+									</header>
+									<div class="card-titulo-modal-card3">
+										<h2>Aplicação</h2>
+										<div class="portfólio-descrição-modal-card3">
+											<p class="descrição-card-modal-card3">O JobsCalc é uma aplicação de estimativa de cálculo para
+												projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa
+												de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando
+												o
+												sistema.</p>
+											<p class="descrição-card-modal-card3">Este projeto foi desenvolvido com as seguintes tecnologias:
+												HTML, CSS, JavaScript, NodeJS, EJS, Express e SQLite. </p>
+											<a class="saiba-mais-modal-card3" href="https://jobscalcfreelance.herokuapp.com/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
-				</li>
-
-				<!-- Card 2 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/DevFinance.png" alt="DevFinance">
-					</header>
-					<div class="card_titulo">
-						<h2>Aplicação</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de aplicação para gestão financeira</p>
-							<a id="saiba_mais_portfolio_card1" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-
-				<!-- Card 3 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/JobsCalc.png" alt="JobsCalc">
-					</header>
-					<div class="card_titulo">
-						<h2>Aplicação Web</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de aplicação de Gestão de trabalho freelance</p>
-							<a id="saiba_mais_portfolio_card3" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-				<!-- Card 4 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/gridLayout.png" alt="gridLayout">
-					</header>
-					<div class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício com Grid layout</p>
-							<a id="saiba_mais_portfolio_card4" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-				<!-- Card 5 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/fleboxLayout.png" alt="fleboxLayout">
-					</header>
-					<div class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício com layout flexbox</p>
-							<a id="saiba_mais_portfolio_card5" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-
-				<!-- Card 6 -->
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/LojaVegana.png" alt="LojaVegana">
-					</header>
-					<div class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício para loja de produtos veganos. Só HTML e CSS</p>
-							<a id="saiba_mais_portfolio_card6" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-
-				<!-- Card 7 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/BarbeariaThumbnail.png" alt="BarbeariaThumbnail">
-					</header>
-					<div class="card_titulo">
-						<h2>Projeto no Figma</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação do layout de uma barbearia no Figma.Website e tablet</p>
-							<a id="saiba_mais_portfolio_card7" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-
-				<!-- Card 8 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/portfolioThumbnail.png" alt="portfolioThumbnail">
-					</header>
-					<div class="card_titulo">
-						<h2>Projeto no Figma</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de layout do meu portfólio. Website e mobile </p>
-							<a id="saiba_mais_portfolio_card8" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-
-				<!-- Card 9 -->
-
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/Blog.png" alt="Blog">
-					</header>
-					<div class="card_titulo">
-						<h2>Aplicação Back-End</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de blog com login de admin e usuário com acessos diferentes</p>
-							<a id="saiba_mais_portfolio_card9" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-
-				<!-- Card 10 -->
-				<li>
-					<header class="portfolio-imagem">
-						<img src="img/Bikcraft.png" alt="Bikcraft">
-					</header>
-					<div class="card_titulo">
-						<h2>Website</h2>
-						<div class="portfólio-descrição">
-							<p class="descrição_card">Criação de website fictício com Grid layout</p>
-							<a id="saiba_mais_portfolio_card10" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
-						</div>
-					</div>
-				</li>
-			</ul>
+				</div>
+			</div>
 		</div>
-	</div>
 
-	<!-- Modal do portifólio -->
-	<!-- Modal saiba mais portfolio card1 -->
-	<div class="container.modal">
-		<div class="modal-overlay">
-			<div class="modal" id="modal">
-				<div class="portfolio-modal ">
-					<div class="row-modal">
-						<img onclick="Modal.close()" class="fechar" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal">
+
+		<!-- Modal saiba mais portfolio card4 -->
+		<div class="container.modal-card4">
+			<div class="modal-overlay-card4">
+				<div class="modal-card4" id="modal-card4">
+					<div class="portfolio-modal-card4 ">
+						<div class="row-modal-card4">
+							<img onclick="Modal.close()" class="fechar-card4" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card4">
+								<li>
+									<header class="portfolio-imagem-modal-card4">
+										<img class="imagem-modal-card4" src="img/gridLayout.png" alt="gridLayout">
+									</header>
+									<div class="card-titulo-modal-card4">
+										<h2>Website</h2>
+										<div class="portfólio-descrição-modal-card4">
+											<p class="descrição-card-modal-card4">Este website foi levantado durante uma atividade da
+												Origamid.
+												O objetivo era exercitar o Flexbox e a responsividade.</p>
+											<p class="descrição-card-modal-card4">O projeto foi desenvolvido com as seguintes tecnologias:
+												HTML
+												e CSS Flexbox. Foram usados conceitos básicos e avançados. </p>
+											<a class="saiba-mais-modal-card4" href="https://leokattah.github.io/WildBeast/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Modal saiba mais portfolio card5 -->
+		<div class="container.modal-card5">
+			<div class="modal-overlay-card5">
+				<div class="modal-card5" id="modal-card5">
+					<div class="portfolio-modal-card5 ">
+						<div class="row-modal-card5">
+							<img onclick="Modal.close()" class="fechar-card5" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card5">
+								<li>
+									<header class="portfolio-imagem-modal-card5">
+										<img class="imagem-modal-card5" src="img/fleboxLayout.png" alt="fleboxLayout">
+									</header>
+									<div class="card-titulo-modal-card5">
+										<h2>Website</h2>
+										<div class="portfólio-descrição-modal-card5">
+											<p class="descrição-card-modal-card5">Este website foi levantado durante uma atividade da
+												Origamid.
+												O objetivo era exercitar o Grid Layout e a responsividade.</p>
+											<p class="descrição-card-modal-card5">O projeto foi desenvolvido com as seguintes tecnologias:
+												HTML
+												e CSS Grid. Foram usados conceitos básicos e avançados. </p>
+											<a class="saiba-mais-modal-card5" href="https://leokattah.github.io/FlexBlog/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal saiba mais portfolio card6 -->
+		<div class="container.modal-card6">
+			<div class="modal-overlay-card6">
+				<div class="modal-card6" id="modal-card6">
+					<div class="portfolio-modal-card6 ">
+						<div class="row-modal-card6">
+							<img onclick="Modal.close()" class="fechar-card6" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card6">
+								<li>
+									<header class="portfolio-imagem-modal-card6">
+										<img class="imagem-modal-card6" src="img/LojaVegana.png" alt="LojaVegana">
+									</header>
+									<div class="card-titulo-modal-card6">
+										<h2>Website</h2>
+										<div class="portfólio-descrição-modal-card6">
+											<p class="descrição-card-modal-card6">Este website foi levantado por iniciativa própria. O
+												objetivo
+												era exercitar os conceitos de HTML, CSS e responsividade.</p>
+											<p class="descrição-card-modal-card6">O desafio na ocasião foi inserir um vídeo na página.
+												Javascript não foi o foco da atividade. </p>
+											<a class="saiba-mais-modal-card6" href="https://leokattah.github.io/vegstore/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal saiba mais portfolio card7 -->
+		<div class="container.modal-card7">
+			<div class="modal-overlay-card7">
+				<div class="modal-card7" id="modal-card7">
+					<div class="portfolio-modal-card7 ">
+						<div class="row-modal-card7">
+							<img onclick="Modal.close()" class="fechar-card7" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card7">
+								<li>
+									<header class="portfolio-imagem-modal-card7">
+										<img class="imagem-modal-card7" src="img/Barbeariav2.png" alt="Barbearia">
+									</header>
+									<div class="card-titulo-modal-card7">
+										<h2>Projeto no Figma</h2>
+										<div class="portfólio-descrição-modal-card7">
+											<p class="descrição-card-modal-card7">Projeto de design feito no Figma durante atividade do curso
+												Chief of Design.</p>
+											<p class="descrição-card-modal-card7">Tomei a iniciativa de criar o layout responsivo para tablet.
+											</p>
+											<a class="saiba-mais-modal-card7"
+												href="https://www.figma.com/file/YKxRHZaCmQ2fjTPFKp9bie/Barbearia?node-id=0%3A1"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal saiba mais portfolio card8 -->
+		<div class="container.modal-card8">
+			<div class="modal-overlay-card8">
+				<div class="modal-card8" id="modal-card8">
+					<div class="portfolio-modal-card8 ">
+						<div class="row-modal-card8">
+							<img onclick="Modal.close()" class="fechar-card8" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card8">
+								<li>
+									<header class="portfolio-imagem-modal-card8">
+										<img class="imagem-modal-card8" src="img/portfolio.png" alt="Portfólio">
+									</header>
+									<div class="card-titulo-modal-card8">
+										<h2>Projeto no Figma</h2>
+										<div class="portfólio-descrição-modal-card8">
+											<p class="descrição-card-modal-card8">Projeto de design feito no Figma com objetivo de levantar
+												meu
+												portfólio.</p>
+											<p class="descrição-card-modal-card8">Tomei a iniciativa de criar o layout tanto para web quanto
+												mobile.</p>
+											<p class="descrição-card-modal-card8">Fiz muitas pesquisas de portfólios já criados para obter
+												inspiração. Em seguida criei o Design System para praticar. </p>
+											<a class="saiba-mais-modal-card8"
+												href="https://www.figma.com/file/ebZlRAI1w8JBuqjKRTWhq4/Portf%C3%B3lio-Leonardo?node-id=8%3A0"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal saiba mais portfolio card9 -->
+		<div class="container.modal-card9">
+			<div class="modal-overlay-card9">
+				<div class="modal-card9" id="modal-card9">
+					<div class="portfolio-modal-card9 ">
+						<div class="row-modal-card9">
+							<img onclick="Modal.close()" class="fechar-card9" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card9">
+								<li>
+									<header class="portfolio-imagem-modal-card9">
+										<img class="imagem-modal-card9" src="img/Blog.png" alt="Blog">
+									</header>
+									<div class="card-titulo-modal-card9">
+										<h2>Aplicação</h2>
+										<div class="portfólio-descrição-modal-card9">
+											<p class="descrição-card-modal-card9">Projeto para estudo de NodeJS. Algumas tecnologias usadas:
+												NodeJS, Handlebars, Express, Passport, Mongoose, Bootstrap.</p>
+											<p class="descrição-card-modal-card9">A aplicação cria, salva e edita os dados das postagens como:
+												título, descrição, conteúdo, data, categoria pertencente, informações dos comentários e
+												respostas.
+											</p>
+											<a class="saiba-mais-modal-card9" href="https://blognodejs-app.herokuapp.com/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal saiba mais portfolio card10 -->
+		<div class="container.modal-card10">
+			<div class="modal-overlay-card10">
+				<div class="modal-card10" id="modal-card10">
+					<div class="portfolio-modal-card10 ">
+						<div class="row-modal-card10">
+							<img onclick="Modal.close()" class="fechar-card10" src="./assets/fechar.svg" alt="fechar">
+							<ul class="cards_portfolio_modal-card10">
+								<li>
+									<header class="portfolio-imagem-modal-card10">
+										<img class="imagem-modal-card10" src="img/Bikcraft.png" alt="Blog">
+									</header>
+									<div class="card-titulo-modal-card10">
+										<h2>Aplicação</h2>
+										<div class="portfólio-descrição-modal-card10">
+											<p class="descrição-card-modal-card10">Este website foi levantado durante uma atividade da
+												Origamid.
+												O objetivo era exercitar o Grid Layout e a responsividade.</p>
+											<p class="descrição-card-modal-card10">O projeto foi levantado com as seguintes tecnologias: HTML,
+												CSS e Javascript.
+											</p>
+											<a class="saiba-mais-modal-card10" href="https://bikcraft2-tau.vercel.app/"
+												target="a_blank">Acesse
+												no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal dos certificados  -->
+		<div class="container.modal-certificado"></div>
+		<div class="modal-overlay-certificado">
+			<div class="modal_certificado" id="modal_certificado">
+				<div>
+					<div class="row-certificado">
+						<ul class="certificados">
+							<img onclick="certificados.close()" class="fechar_certificado" src="./assets/fechar.svg" alt="fechar">
 							<li>
-								<header class="portfolio-imagem-modal">
-									<img class="imagem-modal" src="img/trintaDiasDeCSSV3.png" alt="trintaDiasDeCSS">
+								<header class="certificados_container">
 								</header>
-								<div class="card-titulo-modal">
-									<h2>Website</h2>
-									<div class="portfólio-descrição-modal">
-										<p class="descrição-card-modal">Criei este website para alocação de desafios
-											realizados com CSS. Foi a forma como encontrei para exercitar alguns conceitos de HTML, CSS e
-											layout.</p>
-										<p class="descrição-card-modal">Como não sabia muito de responsividade na ocasição,
-											busquei ajuda com um desenvolvedor front-end que era contato no LinkedIn. Seu
-											trabalho e ajuda foram reconhecidos no website.</p>
-										<p class="descrição-card-modal">Os desafios encontrados foram garantir consistência dos cards em
-											telas menores e a configuração menu hamburguer. Usei tags semânticas para ajudar nas buscas </p>
-										<a class="saiba-mais-modal" href="https://leokattah.github.io/30diasDeCSS/" target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+								<div class="flex">
+									<div>
+										<img src="./img/Certificado1.png" alt="certificado1">
+										<p>Desenvolvedor Web</p>
+									</div>
+									<div>
+										<img src="./img/Certificado2.jpg" alt="certificado2">
+										<p>Desenvolvedor Full Stack</p>
+									</div>
+									<div>
+										<img src="./img/Certificado3.png" alt="certificado3">
+										<p>Programador de Software</p>
+									</div>
+									<div>
+										<img src="./img/Certificado4.jpg" alt="certificado4">
+										<p>Desenvolvedor Web</p>
+									</div>
+									<div>
+										<img src="./img/Certificado5.jpg" alt="certificado5">
+										<p>Graduação </p>
+									</div>
+									<div>
+										<img src="./img/Certificado6.jpg" alt="certificado6">
+										<p>MBA Especialização</p>
 									</div>
 								</div>
 							</li>
@@ -504,32 +856,42 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- Modal saiba mais portfolio card2 -->
-
-	<div class="container.modal-card2">
-		<div class="modal-overlay-card2">
-			<div class="modal-card2" id="modal-card2">
-				<div class="portfolio-modal-card2 ">
-					<div class="row-modal-card2">
-						<img onclick="Modal.close()" class="fechar-card2" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card2">
+		<!-- Modal dos cursos  -->
+		<div class="container.modal-curso"> </div>
+		<div class="modal-overlay-curso">
+			<div class="modal_curso" id="modal_curso">
+				<div>
+					<div class="row-curso">
+						<ul class="curso">
+							<img onclick="ModalCurso.close()" class="fechar_curso" src="./assets/fechar.svg" alt="fechar">
 							<li>
-								<header class="portfolio-imagem-modal-card2">
-									<img class="imagem-modal-card2" src="img/DevFinance.png" alt="devFinance">
+								<header class="curso_container">
 								</header>
-								<div class="card-titulo-modal-card2">
-									<h2>Aplicação</h2>
-									<div class="portfólio-descrição-modal-card2">
-										<p class="descrição-card-modal-card2">Esta aplicação foi desenvolvida durante a atividade de
-											Rocketseat. Tanto o front-end quanto o back-end foram levantados do zero. </p>
-										<p class="descrição-card-modal-card2">O dev.finances é uma aplicação de controle financeiro, onde
-											é possível cadastrar e excluir transações e ver o saldo de entrada e saída.</p>
-										<p class="descrição-card-modal-card2">As tecnologias usadas foram HTML, CSS e Javascript. </p>
-										<a class="saiba-mais-modal-card2" href="https://leokattah.github.io/DevFinance/"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+								<div class="flex">
+									<div>
+										<img src="./img/Curso1.png" alt="curso1">
+										<p>Javascript</p>
+									</div>
+									<div>
+										<img src="./img/Curso2.png" alt="curso2">
+										<p>Github</p>
+									</div>
+									<div>
+										<img src="./img/Curso3.png" alt="curso3">
+										<p>Angular</p>
+									</div>
+									<div>
+										<img src="./img/Curso4.png" alt="curso4">
+										<p>Design UX/UI</p>
+									</div>
+									<div>
+										<img src="./img/Curso5.png" alt="curso5">
+										<p>Jquery</p>
+									</div>
+									<div>
+										<img src="./img/Curso6.png" alt="curso6">
+										<p>Bootstrap</p>
 									</div>
 								</div>
 							</li>
@@ -538,443 +900,80 @@
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!-- Modal saiba mais portfolio card3 -->
-	<div class="container.modal-card3">
-		<div class="modal-overlay-card3">
-			<div class="modal-card3" id="modal-card3">
-				<div class="portfolio-modal-card3 ">
-					<div class="row-modal-card3">
-						<img onclick="Modal.close()" class="fechar-card3" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card3">
-							<li>
-								<header class="portfolio-imagem-modal-card3">
-									<img class="imagem-modal-card3" src="img/JobsCalc.png" alt="JobsCalc">
-								</header>
-								<div class="card-titulo-modal-card3">
-									<h2>Aplicação</h2>
-									<div class="portfólio-descrição-modal-card3">
-										<p class="descrição-card-modal-card3">O JobsCalc é uma aplicação de estimativa de cálculo para
-											projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa
-											de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando
-											o
-											sistema.</p>
-										<p class="descrição-card-modal-card3">Este projeto foi desenvolvido com as seguintes tecnologias:
-											HTML, CSS, JavaScript, NodeJS, EJS, Express e SQLite. </p>
-										<a class="saiba-mais-modal-card3" href="https://jobscalcfreelance.herokuapp.com/"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!-- Modal saiba mais portfolio card4 -->
-	<div class="container.modal-card4">
-		<div class="modal-overlay-card4">
-			<div class="modal-card4" id="modal-card4">
-				<div class="portfolio-modal-card4 ">
-					<div class="row-modal-card4">
-						<img onclick="Modal.close()" class="fechar-card4" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card4">
-							<li>
-								<header class="portfolio-imagem-modal-card4">
-									<img class="imagem-modal-card4" src="img/gridLayout.png" alt="gridLayout">
-								</header>
-								<div class="card-titulo-modal-card4">
-									<h2>Website</h2>
-									<div class="portfólio-descrição-modal-card4">
-										<p class="descrição-card-modal-card4">Este website foi levantado durante uma atividade da
-											Origamid.
-											O objetivo era exercitar o Flexbox e a responsividade.</p>
-										<p class="descrição-card-modal-card4">O projeto foi desenvolvido com as seguintes tecnologias:
-											HTML
-											e CSS Flexbox. Foram usados conceitos básicos e avançados. </p>
-										<a class="saiba-mais-modal-card4" href="https://leokattah.github.io/WildBeast/"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!-- Modal saiba mais portfolio card5 -->
-	<div class="container.modal-card5">
-		<div class="modal-overlay-card5">
-			<div class="modal-card5" id="modal-card5">
-				<div class="portfolio-modal-card5 ">
-					<div class="row-modal-card5">
-						<img onclick="Modal.close()" class="fechar-card5" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card5">
-							<li>
-								<header class="portfolio-imagem-modal-card5">
-									<img class="imagem-modal-card5" src="img/fleboxLayout.png" alt="fleboxLayout">
-								</header>
-								<div class="card-titulo-modal-card5">
-									<h2>Website</h2>
-									<div class="portfólio-descrição-modal-card5">
-										<p class="descrição-card-modal-card5">Este website foi levantado durante uma atividade da
-											Origamid.
-											O objetivo era exercitar o Grid Layout e a responsividade.</p>
-										<p class="descrição-card-modal-card5">O projeto foi desenvolvido com as seguintes tecnologias:
-											HTML
-											e CSS Grid. Foram usados conceitos básicos e avançados. </p>
-										<a class="saiba-mais-modal-card5" href="https://leokattah.github.io/FlexBlog/"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal saiba mais portfolio card6 -->
-	<div class="container.modal-card6">
-		<div class="modal-overlay-card6">
-			<div class="modal-card6" id="modal-card6">
-				<div class="portfolio-modal-card6 ">
-					<div class="row-modal-card6">
-						<img onclick="Modal.close()" class="fechar-card6" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card6">
-							<li>
-								<header class="portfolio-imagem-modal-card6">
-									<img class="imagem-modal-card6" src="img/LojaVegana.png" alt="LojaVegana">
-								</header>
-								<div class="card-titulo-modal-card6">
-									<h2>Website</h2>
-									<div class="portfólio-descrição-modal-card6">
-										<p class="descrição-card-modal-card6">Este website foi levantado por iniciativa própria. O
-											objetivo
-											era exercitar os conceitos de HTML, CSS e responsividade.</p>
-										<p class="descrição-card-modal-card6">O desafio na ocasião foi inserir um vídeo na página.
-											Javascript não foi o foco da atividade. </p>
-										<a class="saiba-mais-modal-card6" href="https://leokattah.github.io/vegstore/"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal saiba mais portfolio card7 -->
-	<div class="container.modal-card7">
-		<div class="modal-overlay-card7">
-			<div class="modal-card7" id="modal-card7">
-				<div class="portfolio-modal-card7 ">
-					<div class="row-modal-card7">
-						<img onclick="Modal.close()" class="fechar-card7" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card7">
-							<li>
-								<header class="portfolio-imagem-modal-card7">
-									<img class="imagem-modal-card7" src="img/Barbeariav2.png" alt="Barbearia">
-								</header>
-								<div class="card-titulo-modal-card7">
-									<h2>Projeto no Figma</h2>
-									<div class="portfólio-descrição-modal-card7">
-										<p class="descrição-card-modal-card7">Projeto de design feito no Figma durante atividade do curso
-											Chief of Design.</p>
-										<p class="descrição-card-modal-card7">Tomei a iniciativa de criar o layout responsivo para tablet.
-										</p>
-										<a class="saiba-mais-modal-card7"
-											href="https://www.figma.com/file/YKxRHZaCmQ2fjTPFKp9bie/Barbearia?node-id=0%3A1"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal saiba mais portfolio card8 -->
-	<div class="container.modal-card8">
-		<div class="modal-overlay-card8">
-			<div class="modal-card8" id="modal-card8">
-				<div class="portfolio-modal-card8 ">
-					<div class="row-modal-card8">
-						<img onclick="Modal.close()" class="fechar-card8" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card8">
-							<li>
-								<header class="portfolio-imagem-modal-card8">
-									<img class="imagem-modal-card8" src="img/portfolio.png" alt="Portfólio">
-								</header>
-								<div class="card-titulo-modal-card8">
-									<h2>Projeto no Figma</h2>
-									<div class="portfólio-descrição-modal-card8">
-										<p class="descrição-card-modal-card8">Projeto de design feito no Figma com objetivo de levantar
-											meu
-											portfólio.</p>
-										<p class="descrição-card-modal-card8">Tomei a iniciativa de criar o layout tanto para web quanto
-											mobile.</p>
-										<p class="descrição-card-modal-card8">Fiz muitas pesquisas de portfólios já criados para obter
-											inspiração. Em seguida criei o Design System para praticar. </p>
-										<a class="saiba-mais-modal-card8"
-											href="https://www.figma.com/file/ebZlRAI1w8JBuqjKRTWhq4/Portf%C3%B3lio-Leonardo?node-id=8%3A0"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal saiba mais portfolio card9 -->
-	<div class="container.modal-card9">
-		<div class="modal-overlay-card9">
-			<div class="modal-card9" id="modal-card9">
-				<div class="portfolio-modal-card9 ">
-					<div class="row-modal-card9">
-						<img onclick="Modal.close()" class="fechar-card9" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card9">
-							<li>
-								<header class="portfolio-imagem-modal-card9">
-									<img class="imagem-modal-card9" src="img/Blog.png" alt="Blog">
-								</header>
-								<div class="card-titulo-modal-card9">
-									<h2>Aplicação</h2>
-									<div class="portfólio-descrição-modal-card9">
-										<p class="descrição-card-modal-card9">Projeto para estudo de NodeJS. Algumas tecnologias usadas:
-											NodeJS, Handlebars, Express, Passport, Mongoose, Bootstrap.</p>
-										<p class="descrição-card-modal-card9">A aplicação cria, salva e edita os dados das postagens como:
-											título, descrição, conteúdo, data, categoria pertencente, informações dos comentários e
-											respostas.
-										</p>
-										<a class="saiba-mais-modal-card9" href="https://blognodejs-app.herokuapp.com/"
-											target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal saiba mais portfolio card10 -->
-	<div class="container.modal-card10">
-		<div class="modal-overlay-card10">
-			<div class="modal-card10" id="modal-card10">
-				<div class="portfolio-modal-card10 ">
-					<div class="row-modal-card10">
-						<img onclick="Modal.close()" class="fechar-card10" src="./assets/fechar.svg" alt="fechar">
-						<ul class="cards_portfolio_modal-card10">
-							<li>
-								<header class="portfolio-imagem-modal-card10">
-									<img class="imagem-modal-card10" src="img/Bikcraft.png" alt="Blog">
-								</header>
-								<div class="card-titulo-modal-card10">
-									<h2>Aplicação</h2>
-									<div class="portfólio-descrição-modal-card10">
-										<p class="descrição-card-modal-card10">Este website foi levantado durante uma atividade da
-											Origamid.
-											O objetivo era exercitar o Grid Layout e a responsividade.</p>
-										<p class="descrição-card-modal-card10">O projeto foi levantado com as seguintes tecnologias: HTML,
-											CSS e Javascript.
-										</p>
-										<a class="saiba-mais-modal-card10" href="https://bikcraft2-tau.vercel.app/" target="a_blank">Acesse
-											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal dos certificados  -->
-	<div class="container.modal-certificado"></div>
-	<div class="modal-overlay-certificado">
-		<div class="modal_certificado" id="modal_certificado">
-			<div>
-				<div class="row-certificado">
-					<ul class="certificados">
-						<img onclick="certificados.close()" class="fechar_certificado" src="./assets/fechar.svg" alt="fechar">
-						<li>
-							<header class="certificados_container">
-							</header>
-							<div class="flex">
-								<div>
-									<img src="./img/Certificado1.png" alt="certificado1">
-									<p>Desenvolvedor Web</p>
-								</div>
-								<div>
-									<img src="./img/Certificado2.jpg" alt="certificado2">
-									<p>Desenvolvedor Full Stack</p>
-								</div>
-								<div>
-									<img src="./img/Certificado3.png" alt="certificado3">
-									<p>Programador de Software</p>
-								</div>
-								<div>
-									<img src="./img/Certificado4.jpg" alt="certificado4">
-									<p>Desenvolvedor Web</p>
-								</div>
-								<div>
-									<img src="./img/Certificado5.jpg" alt="certificado5">
-									<p>Graduação </p>
-								</div>
-								<div>
-									<img src="./img/Certificado6.jpg" alt="certificado6">
-									<p>MBA Especialização</p>
+		<!-- Footer -->
+		<div class="bg_footer">
+			<div class="footer " id="contato-nav">
+				<div class="content1"></div>
+				<footer>
+					<div class="main-content">
+						<div class="left box_footer">
+							<h2>Sobre</h2>
+							<div class="content">
+								<p> Desenvolvedor Front-end estusiata em UX e por soluções que geram grandes resultados. </p>
+								<div class="social">
+									<a target="a_blank" href="https://github.com/leokattah"><img src="./assets/github_icone.svg"
+											alt="github"></a>
+									<a target="a_blank" href="https://www.linkedin.com/in/leonardo-kattah-55059a20/"><img
+											src="./assets/linkedin_icone.svg" class="linkedin" alt="Linkedin"></a>
+									<a target="a_blank" href="https://www.instagram.com/leonardokattah/"><img
+											src="./assets/instagram_icone.svg" class="instagram" alt="instagran"></a>
 								</div>
 							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal dos cursos  -->
-	<div class="container.modal-curso"> </div>
-	<div class="modal-overlay-curso">
-		<div class="modal_curso" id="modal_curso">
-			<div>
-				<div class="row-curso">
-					<ul class="curso">
-						<img onclick="ModalCurso.close()" class="fechar_curso" src="./assets/fechar.svg" alt="fechar">
-						<li>
-							<header class="curso_container">
-							</header>
-							<div class="flex">
-								<div>
-									<img src="./img/Curso1.png" alt="curso1">
-									<p>Javascript</p>
-								</div>
-								<div>
-									<img src="./img/Curso2.png" alt="curso2">
-									<p>Github</p>
-								</div>
-								<div>
-									<img src="./img/Curso3.png" alt="curso3">
-									<p>Angular</p>
-								</div>
-								<div>
-									<img src="./img/Curso4.png" alt="curso4">
-									<p>Design UX/UI</p>
-								</div>
-								<div>
-									<img src="./img/Curso5.png" alt="curso5">
-									<p>Jquery</p>
-								</div>
-								<div>
-									<img src="./img/Curso6.png" alt="curso6">
-									<p>Bootstrap</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Footer -->
-	<div class="bg_footer">
-		<div class="footer " id="contato-nav">
-			<div class="content1"></div>
-			<footer>
-				<div class="main-content">
-					<div class="left box_footer">
-						<h2>Sobre</h2>
-						<div class="content">
-							<p> Desenvolvedor Front-end estusiata em UX e por soluções que geram grandes resultados. </p>
-							<div class="social">
-								<a target="a_blank" href="https://github.com/leokattah"><img src="./assets/github_icone.svg"
-										alt="github"></a>
-								<a target="a_blank" href="https://www.linkedin.com/in/leonardo-kattah-55059a20/"><img
-										src="./assets/linkedin_icone.svg" class="linkedin" alt="Linkedin"></a>
-								<a target="a_blank" href="https://www.instagram.com/leonardokattah/"><img
-										src="./assets/instagram_icone.svg" class="instagram" alt="instagran"></a>
-							</div>
 						</div>
-					</div>
-					<div class="center box_footer center_box-footer">
-						<h2>Endereço</h2>
-						<div class="content">
-							<div class="place">
-								<span class="endereço"><img src="./assets/endereço.svg" alt="endereço"></span>
-								<span class="text">Rua José Moreira Barbosa, 260 - BH/MG</span>
-							</div>
-							<div class="phone">
-								<span class="whatsapp"><img src="./assets/Whatsapp_ícone.svg" alt="Whatsapp_ícone"></span>
-								<a href="https://api.whatsapp.com/send?phone=5531997784882&text=Ol%C3%A1%2C%20estou%20vendo%20seu%20portf%C3%B3lio%20de%20desenvolvedor%20Front-end%20e%20gostaria%20de%20falar%20com%20voc%C3%AA.%20"
-									target="a_blank" class="text">+55 31 99778-4882</a>
-							</div>
-							<div class="email">
-								<span class="email"><img src="./assets/email.svg" alt="email"></span>
-								<span class="text">leokattah@gmail.com</span>
-							</div>
-						</div>
-					</div>
-					<div class="right box_footer">
-						<h2>Vamos trabalhar juntos?</h2>
-						<div class="content contact-form">
-							<form>
-								<div class="nome">
-									<div class="text">Nome*</div>
-									<input id="nome" type="text" required>
+						<div class="center box_footer center_box-footer">
+							<h2>Endereço</h2>
+							<div class="content">
+								<div class="place">
+									<span class="endereço"><img src="./assets/endereço.svg" alt="endereço"></span>
+									<span class="text">Rua José Moreira Barbosa, 260 - BH/MG</span>
+								</div>
+								<div class="phone">
+									<span class="whatsapp"><img src="./assets/Whatsapp_ícone.svg" alt="Whatsapp_ícone"></span>
+									<a href="https://api.whatsapp.com/send?phone=5531997784882&text=Ol%C3%A1%2C%20estou%20vendo%20seu%20portf%C3%B3lio%20de%20desenvolvedor%20Front-end%20e%20gostaria%20de%20falar%20com%20voc%C3%AA.%20"
+										target="a_blank" class="text">+55 31 99778-4882</a>
 								</div>
 								<div class="email">
-									<div class="text">Email*</div>
-									<input id="email" type="email" required>
+									<span class="email"><img src="./assets/email.svg" alt="email"></span>
+									<span class="text">leokattah@gmail.com</span>
 								</div>
-								<div class="msg">
-									<div class="text">Deixe sua mensagem*</div>
-									<input id="message" class="text_input" type="text" required>
-								</div>
-								<div class="btn">
-									<button type="submit">Enviar</button>
-								</div>
-							</form>
+							</div>
+						</div>
+						<div class="right box_footer">
+							<h2>Vamos trabalhar juntos?</h2>
+							<div class="content contact-form">
+								<form>
+									<div class="nome">
+										<div class="text">Nome*</div>
+										<input id="nome" type="text" required>
+									</div>
+									<div class="email">
+										<div class="text">Email*</div>
+										<input id="email" type="email" required>
+									</div>
+									<div class="msg">
+										<div class="text">Deixe sua mensagem*</div>
+										<input id="message" class="text_input" type="text" required>
+									</div>
+									<div class="btn">
+										<button type="submit">Enviar</button>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
-				</div>
-			</footer>
+				</footer>
+			</div>
 		</div>
-	</div>
-	<p></p>
-	<div class="bottom">
-		<span class="credit">Created By <a>Leonardo Kattah </a> | </span>
-		<span class="far fa-copyright"></span><span> 2021 All rights reserved</span>
-	</div>
-	<script src="./js/script.js"></script>
-	<script src="js/scriptsModal.js"></script>
-	<script src="./js/scriptsModalcertificado.js"></script>
-	<script src="./js/scriptsModalcurso.js"></script>
-	<script src="./js/app.js"></script>
+		<p></p>
+		<div class="bottom">
+			<span class="credit">Created By <a>Leonardo Kattah </a> | </span>
+			<span class="far fa-copyright"></span><span> 2021 All rights reserved</span>
+		</div>
+		<script src="./js/script.js"></script>
+		<script src="js/scriptsModal.js"></script>
+		<script src="./js/scriptsModalcertificado.js"></script>
+		<script src="./js/scriptsModalcurso.js"></script>
+		<script src="./js/app.js"></script>
 </body>
 
 </html>

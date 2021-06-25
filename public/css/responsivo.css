@@ -126,6 +126,7 @@ transform: translatex(-35px);
 @media (max-width: 741px) {
   .bg_serviços_box {
     margin-top: 880px;
+    background: transparent;
   } 
 
   .serviços_box h1 {
