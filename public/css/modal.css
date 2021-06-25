@@ -54,7 +54,7 @@ a:hover {
   justify-content: center;
   opacity: 0;
   visibility: hidden;
-  z-index: 999;
+  z-index:2;
   overflow: auto;
 }
 
