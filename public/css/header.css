@@ -51,15 +51,19 @@ max-width: 100%;
   margin-bottom: 30px;
 }
 
-.header-descrição span {
-  margin-left: 60px;
-  padding: 13px 26px;
-  border-radius: 4px;
-  border: 2px solid var(--color-lilas-botao);
-  display: flex;
-  width: 160px;
-transform: translateY(20px);
-}
+  .header-descrição span {
+    margin-left: 60px;
+
+    border-radius: 4px;
+    border: 2px solid var(--color-lilas-botao);
+    display: flex;
+    width: 160px;
+    transform: translateY(20px);
+    cursor: pointer;
+    }
+    .header-descrição span  a{
+        padding: 13px 26px;
+      }
 
  .img-Leo1 {
   /* width: 400px;
