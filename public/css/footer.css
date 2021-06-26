@@ -199,3 +199,11 @@ margin-bottom: 10px;
 .bottom .credit .far {
   background: var(--color-cinza-card);
 }
+
+.place-center-footer{
+display: flex;
+align-items: center;
+}
+.place-center-footer-email{
+margin-top: 10px;
+}
