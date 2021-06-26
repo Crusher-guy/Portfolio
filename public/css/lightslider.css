@@ -3,6 +3,10 @@ ul {
   list-style: none;
 }
 
+.lSPager {
+margin-top: 0 !important; 
+}
+
 .lSSlideOuter {
   overflow: hidden;
   -webkit-touch-callout: none;
@@ -83,6 +87,7 @@ ul {
   display: inline-block;
   padding: 0 5px;
   background-color: transparent;
+  margin-top: 15px;
 }
 .lSSlideOuter .lSPager.lSpg > li a {
   /* background-color: #222222; */
