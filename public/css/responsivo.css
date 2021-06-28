@@ -254,3 +254,10 @@ margin-top: 0px;
     height: 460px;
   }
 }
+
+@media (max-width: 856px){
+.saiba_mais, .saiba-li1, .saiba-li2, .saiba_mais_curso, .saiba_mais_certificado{
+  min-width: 16px;
+}
+}
+
