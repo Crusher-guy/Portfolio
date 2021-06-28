@@ -167,12 +167,13 @@ transform: translatex(-35px);
   align-self: left;
   margin-left: 0;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 }
 @media (max-width: 363px) {
 .saiba_mais ul .saiba-li2 a{
 margin-top: 10px;
-margin-left: 0;
+margin-left: 2px;
 }
 }
 
@@ -180,8 +181,9 @@ margin-left: 0;
   .saiba_mais ul .saiba-li1  {
     display: flex;
     align-self: left;
-    margin-left: 0;
+    margin-left: 2px;
     margin-bottom: 0;
+    margin-top: 10px;
   }
   }
   @media (max-width: 363px) {
