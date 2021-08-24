@@ -43,7 +43,22 @@ a:hover {
 }
 
 /* Modal ===================== */
-.modal-overlay {
+.modal-overlay,
+.modal-overlay-card2,
+.modal-overlay-card3,
+.modal-overlay-card4,
+.modal-overlay-card5,
+.modal-overlay-card6,
+.modal-overlay-card7,
+.modal-overlay-card8,
+.modal-overlay-card9,
+.modal-overlay-card10,
+.modal-overlay-card11,
+.modal-overlay-card12,
+.modal-overlay-card13,
+.modal-overlay-card14,
+.modal-overlay-card15,
+.modal-overlay-card16 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -54,17 +69,47 @@ a:hover {
   justify-content: center;
   opacity: 0;
   visibility: hidden;
-  z-index:2;
+  z-index: 2;
   overflow: auto;
 }
 
-.modal-overlay.active {
+.modal-overlay.active,
+.modal-overlay-card2.active,
+  .modal-overlay-card3.active,
+  .modal-overlay-card4.active,
+  .modal-overlay-card5.active,
+  .modal-overlay-card6.active,
+  .modal-overlay-card7.active,
+  .modal-overlay-card8.active,
+  .modal-overlay-card9.active,
+  .modal-overlay-card10.active,
+  .modal-overlay-card11.active,
+  .modal-overlay-card12.active,
+  .modal-overlay-card13.active,
+  .modal-overlay-card14.active,
+  .modal-overlay-card15.active,
+  .modal-overlay-card16.active {
   opacity: 1;
   visibility: visible;
   /* transition: all 0.1s ease 0.1s; */
 }
 
-.modal {
+.modal,
+  .modal-card2,
+  .modal-card3,
+  .modal-card4,
+  .modal-card5,
+  .modal-card6,
+  .modal-card7,
+  .modal-card8,
+  .modal-card9,
+  .modal-card10,
+  .modal-card11,
+  .modal-card12,
+  .modal-card13,
+  .modal-card14,
+  .modal-card15,
+  .modal-card16 {
   background-color: var(--body-color);
   color: var(--base-color);
   width: 90%;
@@ -72,20 +117,68 @@ a:hover {
   border-radius: 0.5rem;
   z-index: 1;
 }
+
+
 /* sessão dos portfolio-modal */
-.portfolio-modal {
+.portfolio-modal,
+  .portfolio-modal-card2,
+  .portfolio-modal-card3,
+  .portfolio-modal-card4,
+  .portfolio-modal-card5,
+  .portfolio-modal-card6,
+  .portfolio-modal-card7,
+  .portfolio-modal-card8,
+  .portfolio-modal-card9,
+  .portfolio-modal-card10,
+  .portfolio-modal-card11,
+  .portfolio-modal-card12,
+  .portfolio-modal-card13,
+  .portfolio-modal-card14,
+  .portfolio-modal-card15,
+  .portfolio-modal-card16 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.row-modal {
+
+.row-modal,
+  .row-modal-card2,
+  .row-modal-card3,
+  .row-modal-card4,
+  .row-modal-card5,
+  .row-modal-card6,
+  .row-modal-card7,
+  .row-modal-card8,
+  .row-modal-card9,
+  .row-modal-card10,
+  .row-modal-card11,
+  .row-modal-card12,
+  .row-modal-card13,
+  .row-modal-card14,
+  .row-modal-card15,
+  .row-modal-card16 {
   flex-direction: row;
   background: transparent;
 }
 
-.cards_portfolio_modal {
+.cards_portfolio_modal,
+  .cards_portfolio_modal-card2,
+  .cards_portfolio_modal-card3,
+  .cards_portfolio_modal-card4,
+  .cards_portfolio_modal-card5,
+  .cards_portfolio_modal-card6,
+  .cards_portfolio_modal-card7,
+  .cards_portfolio_modal-card8,
+  .cards_portfolio_modal-card9,
+  .cards_portfolio_modal-card10,
+  .cards_portfolio_modal-card11,
+  .cards_portfolio_modal-card12,
+  .cards_portfolio_modal-card13,
+  .cards_portfolio_modal-card14,
+  .cards_portfolio_modal-card15,
+  .cards_portfolio_modal-card16 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -93,7 +186,22 @@ a:hover {
   padding: 0;
 }
 
-.cards_portfolio_modal li {
+.cards_portfolio_modal li,
+  .cards_portfolio_modal-card2 li,
+  .cards_portfolio_modal-card3 li,
+  .cards_portfolio_modal-card4 li,
+  .cards_portfolio_modal-card5 li,
+  .cards_portfolio_modal-card6 li,
+  .cards_portfolio_modal-card7 li,
+  .cards_portfolio_modal-card8 li,
+  .cards_portfolio_modal-card9 li,
+  .cards_portfolio_modal-card10 li,
+  .cards_portfolio_modal-card11 li,
+  .cards_portfolio_modal-card12 li,
+  .cards_portfolio_modal-card13 li,
+  .cards_portfolio_modal-card14 li,
+  .cards_portfolio_modal-card15 li,
+  .cards_portfolio_modal-card16 li {
   max-width: 1170px;
   flex: 1 2 329px;
   height: 100%;
@@ -104,54 +212,192 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.portfolio-imagem-modal{
+.portfolio-imagem-modal,
+  .portfolio-imagem-modal-card2,
+  .portfolio-imagem-modal-card3,
+  .portfolio-imagem-modal-card4,
+  .portfolio-imagem-modal-card5,
+  .portfolio-imagem-modal-card6,
+  .portfolio-imagem-modal-card7,
+  .portfolio-imagem-modal-card8,
+  .portfolio-imagem-modal-card9,
+  .portfolio-imagem-modal-card10,
+  .portfolio-imagem-modal-card11,
+  .portfolio-imagem-modal-card12,
+  .portfolio-imagem-modal-card13,
+  .portfolio-imagem-modal-card14,
+  .portfolio-imagem-modal-card15,
+  .portfolio-imagem-modal-card16 {
   text-align: center;
   padding: 30px;
   background: transparent;
+
 }
 
-.portfolio-imagem-modal .imagem-modal {
+.portfolio-imagem-modal .imagem-modal,
+  .portfolio-imagem-modal-card2 .imagem-modal-card2,
+  .portfolio-imagem-modal-card3 .imagem-modal-card3,
+  .portfolio-imagem-modal-card4 .imagem-modal-card4,
+  .portfolio-imagem-modal-card5 .imagem-modal-card5,
+  .portfolio-imagem-modal-card6 .imagem-modal-card6,
+  .portfolio-imagem-modal-card7 .imagem-modal-card7,
+  .portfolio-imagem-modal-card8 .imagem-modal-card8,
+  .portfolio-imagem-modal-card9 .imagem-modal-card9,
+  .portfolio-imagem-modal-card10 .imagem-modal-card10,
+  .portfolio-imagem-modal-card11 .imagem-modal-card11, 
+  .portfolio-imagem-modal-card12 .imagem-modal-card12,
+  .portfolio-imagem-modal-card13 .imagem-modal-card13,
+  .portfolio-imagem-modal-card14 .imagem-modal-card14,
+  .portfolio-imagem-modal-card15 .imagem-modal-card15,
+  .portfolio-imagem-modal-card16 .imagem-modal-card16 {
   max-width: 100%;
   display: block;
   border-radius: 2px;
+  width: 609px;
 }
 
-.card-titulo-modal {
+.card-titulo-modal,
+  .card-titulo-modal-card2,
+  .card-titulo-modal-card3,
+  .card-titulo-modal-card4,
+  .card-titulo-modal-card5,
+  .card-titulo-modal-card6,
+  .card-titulo-modal-card7,
+  .card-titulo-modal-card8,
+  .card-titulo-modal-card9,
+  .card-titulo-modal-card10,
+  .card-titulo-modal-card11,
+  .card-titulo-modal-card12,
+  .card-titulo-modal-card13,
+  .card-titulo-modal-card14,
+  .card-titulo-modal-card15,
+  .card-titulo-modal-card16 {
   background: transparent;
   max-width: 400px;
 }
-.card-titulo-modal h2 {
+
+.card-titulo-modal h2,
+  .card-titulo-modal-card2 h2,
+  .card-titulo-modal-card3 h2,
+    .card-titulo-modal-card4 h2,
+  .card-titulo-modal-card5 h2,
+  .card-titulo-modal-card6 h2,
+  .card-titulo-modal-card7 h2,
+  .card-titulo-modal-card8 h2,
+  .card-titulo-modal-card9 h2,
+  .card-titulo-modal-card10 h2,
+  .card-titulo-modal-card11 h2,
+  .card-titulo-modal-card12 h2,
+  .card-titulo-modal-card13 h2,
+  .card-titulo-modal-card14 h2,
+  .card-titulo-modal-card15 h2,
+  .card-titulo-modal-card16 h2 {
   max-width: 100%;
   padding: 0px 30px 0;
   background: transparent;
 }
 
-.portfólio-descrição-modal {
+.portfólio-descrição-modal,
+  .portfólio-descrição-modal-card2,
+  .portfólio-descrição-modal-card3,
+  .portfólio-descrição-modal-card4,
+  .portfólio-descrição-modal-card5,
+  .portfólio-descrição-modal-card6,
+  .portfólio-descrição-modal-card7,
+  .portfólio-descrição-modal-card8,
+  .portfólio-descrição-modal-card9,
+  .portfólio-descrição-modal-card10,
+  .portfólio-descrição-modal-card11,
+  .portfólio-descrição-modal-card12,
+  .portfólio-descrição-modal-card13,
+  .portfólio-descrição-modal-card14,
+  .portfólio-descrição-modal-card15,
+  .portfólio-descrição-modal-card16 {
   max-width: 100%;
   height: 120px;
   padding: 30px;
   background: transparent;
 }
 
-.descrição-card-modal {
+.descrição-card-modal,
+  .descrição-card-modal-card2,
+  .descrição-card-modal-card3,
+  .descrição-card-modal-card4,
+  .descrição-card-modal-card5,
+  .descrição-card-modal-card6,
+  .descrição-card-modal-card7,
+  .descrição-card-modal-card8,
+  .descrição-card-modal-card9,
+  .descrição-card-modal-card10,
+  .descrição-card-modal-card11,
+  .descrição-card-modal-card12,
+  .descrição-card-modal-card13,
+  .descrição-card-modal-card14,
+  .descrição-card-modal-card15,
+  .descrição-card-modal-card16 {
   background: transparent;
 }
 
-.portfólio-descrição-modal .saiba-mais-modal {
+.portfólio-descrição-modal  .saiba-mais-modal,
+  .portfólio-descrição-modal-card2 .saiba-mais-modal-card2,
+  .portfólio-descrição-modal-card3 .saiba-mais-modal-card3,
+  .portfólio-descrição-modal-card4 .saiba-mais-modal-card4,
+  .portfólio-descrição-modal-card5 .saiba-mais-modal-card5,
+  .portfólio-descrição-modal-card6 .saiba-mais-modal-card6,
+  .portfólio-descrição-modal-card7 .saiba-mais-modal-card7,
+  .portfólio-descrição-modal-card8 .saiba-mais-modal-card8,
+  .portfólio-descrição-modal-card9 .saiba-mais-modal-card9,
+  .portfólio-descrição-modal-card10 .saiba-mais-modal-card10,
+  .portfólio-descrição-modal-card11 .saiba-mais-modal-card11,
+  .portfólio-descrição-modal-card12 .saiba-mais-modal-card12,
+  .portfólio-descrição-modal-card13 .saiba-mais-modal-card13,
+  .portfólio-descrição-modal-card14 .saiba-mais-modal-card14,
+  .portfólio-descrição-modal-card15 .saiba-mais-modal-card15,
+  .portfólio-descrição-modal-card16 .saiba-mais-modal-card16 {
   color: #b07dfb;
   font-size: 0.8rem;
   float: right;
   margin: 20px;
 }
 
-.row-modal .fechar{
+.row-modal .fechar,
+  .row-modal-card2 .fechar-card2,
+  .row-modal-card3 .fechar-card3,
+  .row-modal-card4 .fechar-card4,
+  .row-modal-card5 .fechar-card5,
+  .row-modal-card6 .fechar-card6,
+  .row-modal-card7 .fechar-card7,
+  .row-modal-card8 .fechar-card8,
+  .row-modal-card9 .fechar-card9,
+  .row-modal-card10 .fechar-card10,
+  .row-modal-card11 .fechar-card11,
+  .row-modal-card12 .fechar-card12,
+  .row-modal-card13 .fechar-card13,
+  .row-modal-card14 .fechar-card14,
+  .row-modal-card15 .fechar-card15,
+  .row-modal-card16 .fechar-card16 {
   position: absolute;
   right: 15px;
-  top:15px;
+  top: 15px;
   z-index: 1000;
 }
 
-.portfólio-descrição-modal img {
+.portfólio-descrição-modal img,
+  .portfólio-descrição-modal-card2 img,
+  .portfólio-descrição-modal-card3 img,
+  .portfólio-descrição-modal-card4 img,
+  .portfólio-descrição-modal-card5 img,
+  .portfólio-descrição-modal-card6 img,
+  .portfólio-descrição-modal-card7 img,
+  .portfólio-descrição-modal-card8 img,
+  .portfólio-descrição-modal-card9 img,
+  .portfólio-descrição-modal-card10 img,
+  .portfólio-descrição-modal-card11 img,
+  .portfólio-descrição-modal-card12 img,
+  .portfólio-descrição-modal-card13 img,
+  .portfólio-descrição-modal-card14 img,
+  .portfólio-descrição-modal-card15 img,
+  .portfólio-descrição-modal-card16 img {
   bottom: 50px;
   right: 50px;
   padding: 4px;
@@ -159,9 +405,24 @@ a:hover {
 }
 
 @media (max-width: 1192px) {
-  .modal {
-    align-self: flex-start;
-    margin-bottom: 60px;
-    margin-top: 60px;
+  .modal,
+  .modal-card2,
+  .modal-card3,
+  .modal-card4,
+  .modal-card5,
+  .modal-card6,
+  .modal-card7,
+  .modal-card8,
+  .modal-card9,
+  .modal-card10,
+  .modal-card11,
+  .modal-card12,
+  .modal-card13,
+  .modal-card14,
+  .modal-card15,
+  .modal-card16 {
+ align-self: flex-start;
+ margin-bottom: 60px;
+ margin-top: 60px;
   }
 }
