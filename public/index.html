@@ -68,6 +68,7 @@
 	<link rel="stylesheet" href="./css/modalPortfolioCard13.css">
 	<link rel="stylesheet" href="./css/modalPortfolioCard14.css">
 	<link rel="stylesheet" href="./css/modalPortfolioCard15.css">
+	<link rel="stylesheet" href="./css/modalPortfolioCard16.css">
 	<link rel="stylesheet" href="./css/responsivo.css">
 	<!-- <link rel="stylesheet" href="./css/style.css"> -->
 	<script src="./js/JQuery3.3.1.js"></script>
@@ -464,8 +465,8 @@
 						<h2>Aplicação Back-End</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Criação de blog com login de admin e usuário com acessos diferentes</p>
-							<a style='margin-top: 20px;'id="saiba_mais_portfolio_card9" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
-								class="saiba_mais">Saiba Mais</a>
+							<a style='margin-top: 20px;' id="saiba_mais_portfolio_card9" href="#saiba_mais_portfolio_card"
+								onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</div>
 				</li>
@@ -510,8 +511,8 @@
 						<h2>Aplicação</h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card">Aplicação React com CMS Dato e NextJS.</p>
-							<a  id="saiba_mais_portfolio_card12" href="#saiba_mais_portfolio_card"
-								onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
+							<a id="saiba_mais_portfolio_card12" href="#saiba_mais_portfolio_card" onclick="Modal.open()"
+								class="saiba_mais">Saiba Mais</a>
 						</div>
 					</div>
 				</li>
@@ -522,7 +523,7 @@
 						<img src="img/portfolio_phillip.png" alt="portfolio Phillip">
 					</header>
 					<div class="card_titulo">
-						<h2 > Website wordpress </h2>
+						<h2> Website wordpress </h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card"> Website feito em wordpress + elementor. </p>
 							<a style='margin-top: 20px;' id="saiba_mais_portfolio_card13" href="#saiba_mais_portfolio_card"
@@ -537,7 +538,7 @@
 						<img src="img/ignews.png" alt="Ignews">
 					</header>
 					<div class="card_titulo">
-						<h2 > Aplicação </h2>
+						<h2> Aplicação </h2>
 						<div class="portfólio-descrição">
 							<p class="descrição_card"> Blog de notícias super performático. </p>
 							<a style='margin-top: 25px;' id="saiba_mais_portfolio_card14" href="#saiba_mais_portfolio_card"
@@ -556,6 +557,21 @@
 						<div class="portfólio-descrição">
 							<p class="descrição_card"> Website feito em wordpress + elementor. </p>
 							<a style='margin-top: 10px;' id="saiba_mais_portfolio_card15" href="#saiba_mais_portfolio_card"
+								onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
+						</div>
+					</div>
+				</li>
+
+				<!-- Card 16 -->
+				<li>
+					<header class="portfolio-imagem">
+						<img src="img/Rocketlearn_desktop.png" alt="Rocketlearn">
+					</header>
+					<div class="card_titulo">
+						<h2> Website wordpress </h2>
+						<div class="portfólio-descrição">
+							<p class="descrição_card"> Website feito em wordpress + elementor. </p>
+							<a style='margin-top: 10px;' id="saiba_mais_portfolio_card16" href="#saiba_mais_portfolio_card"
 								onclick="Modal.open()" class="saiba_mais">Saiba Mais</a>
 						</div>
 					</div>
@@ -1033,8 +1049,8 @@
 										<p class="descrição-card-modal-card14"> A aplicação feita feita com as tecnologias NextJS, NextAuth,
 											Stripe, FaundaDB e o CMS Prismic.
 										</p>
-										<a class="saiba-mais-modal-card14" href="https://leokattah.com.br/wp_estudo/portfolio-philip-gilbert/"
-											target="a_blank">Acesse
+										<a class="saiba-mais-modal-card14"
+											href="https://leokattah.com.br/wp_estudo/portfolio-philip-gilbert/" target="a_blank">Acesse
 											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
 									</div>
 								</div>
@@ -1067,6 +1083,38 @@
 											simples
 											deixar a página responsível. Usei o editor do elementor para isso. </p>
 										<a class="saiba-mais-modal-card15" href="https://leokattah.com.br/wp_estudo/"
+											target="a_blank">Acesse
+											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Modal saiba mais portfolio card16-->
+	<div class="container.modal">
+		<div class="modal-overlay-card16">
+			<div class="modal-card16" id="modal-card16">
+				<div class="portfolio-modal-card16">
+					<div class="row-modal-card16">
+						<img onclick="Modal.close()" class="fechar-card16" src="./assets/fechar.svg" alt="fechar">
+						<ul class="cards_portfolio_modal-card16">
+							<li>
+								<header class="portfolio-imagem-modal-card16">
+									<img class="imagem-modal-card16" src="img/Rocketlearn_modal.png" alt="Rocketlearn_modal">
+								</header>
+								<div class="card-titulo-modal-card16">
+									<h2>Website wordpress</h2>
+									<div class="portfólio-descrição-modal-card16">
+										<p class="descrição-card-modal-card16"> Este website foi feito em wordpress + elementor.</p>
+										<p class="descrição-card-modal-card16"> O destaque vai para a versão mobile. Foi muito
+											simples deixar a página responsível. Usei o editor do elementor para isso. </p>
+										<a class="saiba-mais-modal-card16" href="https://leokattah.com.br/wp_estudo/rocketlearn/"
 											target="a_blank">Acesse
 											no seu navegador<img src="./assets/AcesseDoSeuComputador.svg" alt="AcesseDoSeuComputador"></a>
 									</div>
