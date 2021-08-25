@@ -58,7 +58,9 @@ a:hover {
 .modal-overlay-card13,
 .modal-overlay-card14,
 .modal-overlay-card15,
-.modal-overlay-card16 {
+.modal-overlay-card16,
+.modal-overlay-card17
+{
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -88,7 +90,9 @@ a:hover {
   .modal-overlay-card13.active,
   .modal-overlay-card14.active,
   .modal-overlay-card15.active,
-  .modal-overlay-card16.active {
+  .modal-overlay-card16.active,
+  .modal-overlay-card17.active
+    {
   opacity: 1;
   visibility: visible;
   /* transition: all 0.1s ease 0.1s; */
@@ -109,7 +113,9 @@ a:hover {
   .modal-card13,
   .modal-card14,
   .modal-card15,
-  .modal-card16 {
+  .modal-card16,
+  .modal-card17
+   {
   background-color: var(--body-color);
   color: var(--base-color);
   width: 90%;
@@ -135,7 +141,9 @@ a:hover {
   .portfolio-modal-card13,
   .portfolio-modal-card14,
   .portfolio-modal-card15,
-  .portfolio-modal-card16 {
+  .portfolio-modal-card16,
+  .portfolio-modal-card17
+   {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,7 +166,9 @@ a:hover {
   .row-modal-card13,
   .row-modal-card14,
   .row-modal-card15,
-  .row-modal-card16 {
+  .row-modal-card16,
+  .row-modal-card17
+   {
   flex-direction: row;
   background: transparent;
 }
@@ -178,7 +188,9 @@ a:hover {
   .cards_portfolio_modal-card13,
   .cards_portfolio_modal-card14,
   .cards_portfolio_modal-card15,
-  .cards_portfolio_modal-card16 {
+  .cards_portfolio_modal-card16,
+  .cards_portfolio_modal-card17 
+  {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -201,7 +213,9 @@ a:hover {
   .cards_portfolio_modal-card13 li,
   .cards_portfolio_modal-card14 li,
   .cards_portfolio_modal-card15 li,
-  .cards_portfolio_modal-card16 li {
+  .cards_portfolio_modal-card16 li,
+  .cards_portfolio_modal-card17 li
+   {
   max-width: 1170px;
   flex: 1 2 329px;
   height: 100%;
@@ -227,7 +241,9 @@ a:hover {
   .portfolio-imagem-modal-card13,
   .portfolio-imagem-modal-card14,
   .portfolio-imagem-modal-card15,
-  .portfolio-imagem-modal-card16 {
+  .portfolio-imagem-modal-card16,
+  .portfolio-imagem-modal-card17
+   {
   text-align: center;
   padding: 30px;
   background: transparent;
@@ -249,7 +265,9 @@ a:hover {
   .portfolio-imagem-modal-card13 .imagem-modal-card13,
   .portfolio-imagem-modal-card14 .imagem-modal-card14,
   .portfolio-imagem-modal-card15 .imagem-modal-card15,
-  .portfolio-imagem-modal-card16 .imagem-modal-card16 {
+  .portfolio-imagem-modal-card16 .imagem-modal-card16,
+  .portfolio-imagem-modal-card17 .imagem-modal-card17 
+  {
   max-width: 100%;
   display: block;
   border-radius: 2px;
@@ -271,7 +289,9 @@ a:hover {
   .card-titulo-modal-card13,
   .card-titulo-modal-card14,
   .card-titulo-modal-card15,
-  .card-titulo-modal-card16 {
+  .card-titulo-modal-card16,
+  .card-titulo-modal-card17
+   {
   background: transparent;
   max-width: 400px;
 }
@@ -291,7 +311,9 @@ a:hover {
   .card-titulo-modal-card13 h2,
   .card-titulo-modal-card14 h2,
   .card-titulo-modal-card15 h2,
-  .card-titulo-modal-card16 h2 {
+  .card-titulo-modal-card16 h2,
+  .card-titulo-modal-card17 h2
+   {
   max-width: 100%;
   padding: 0px 30px 0;
   background: transparent;
@@ -312,7 +334,9 @@ a:hover {
   .portfólio-descrição-modal-card13,
   .portfólio-descrição-modal-card14,
   .portfólio-descrição-modal-card15,
-  .portfólio-descrição-modal-card16 {
+  .portfólio-descrição-modal-card16,
+  .portfólio-descrição-modal-card17
+   {
   max-width: 100%;
   height: 120px;
   padding: 30px;
@@ -334,7 +358,9 @@ a:hover {
   .descrição-card-modal-card13,
   .descrição-card-modal-card14,
   .descrição-card-modal-card15,
-  .descrição-card-modal-card16 {
+  .descrição-card-modal-card16,
+  .descrição-card-modal-card17 
+  {
   background: transparent;
 }
 
@@ -353,7 +379,9 @@ a:hover {
   .portfólio-descrição-modal-card13 .saiba-mais-modal-card13,
   .portfólio-descrição-modal-card14 .saiba-mais-modal-card14,
   .portfólio-descrição-modal-card15 .saiba-mais-modal-card15,
-  .portfólio-descrição-modal-card16 .saiba-mais-modal-card16 {
+  .portfólio-descrição-modal-card16 .saiba-mais-modal-card16,
+  .portfólio-descrição-modal-card17 .saiba-mais-modal-card17 
+  {
   color: #b07dfb;
   font-size: 1rem;
   float: right;
@@ -375,7 +403,9 @@ a:hover {
   .row-modal-card13 .fechar-card13,
   .row-modal-card14 .fechar-card14,
   .row-modal-card15 .fechar-card15,
-  .row-modal-card16 .fechar-card16 {
+  .row-modal-card16 .fechar-card16, 
+  .row-modal-card17 .fechar-card17
+  {
   position: absolute;
   right: 15px;
   top: 15px;
@@ -397,7 +427,9 @@ a:hover {
   .portfólio-descrição-modal-card13 img,
   .portfólio-descrição-modal-card14 img,
   .portfólio-descrição-modal-card15 img,
-  .portfólio-descrição-modal-card16 img {
+  .portfólio-descrição-modal-card16 img,
+  .portfólio-descrição-modal-card17 img
+   {
   bottom: 50px;
   right: 50px;
   padding: 4px;
@@ -420,7 +452,8 @@ a:hover {
   .modal-card13,
   .modal-card14,
   .modal-card15,
-  .modal-card16 {
+  .modal-card16,
+  .modal-card17 {
  align-self: flex-start;
  margin-bottom: 60px;
  margin-top: 60px;
