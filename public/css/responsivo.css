@@ -35,23 +35,21 @@ display: none;
   }
 }
 
-@media (max-width: 597px) {
+@media (max-width: 608px) {
   .container .icones_sociais ul li {
     display: none;
   }
-  .header-descrição input {
-margin-left: 0;
+
+  .header-descrição span{
+    margin-left: 0;
   }
+
   .header-descrição h1 {
-    font-size: 2.5em;
-  }
-  .header-descrição h1{
     margin:0;
   }
   .header-descrição p {
     margin-left: 0;
   }
-
 }
 
 @media (max-width: 540px) {
@@ -62,13 +60,14 @@ margin-left: 0;
     align-self: center;
   }
   .container .header-descrição h1 {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
 @media (max-width:500px){
   .container-header {
 flex-wrap: nowrap;
+height: 65vh;
   }
 }
 
@@ -106,7 +105,7 @@ flex-wrap: nowrap;
 
   .sobre-section {
     background-color: transparent;
-    justify-content: left;
+    /* justify-content: left; */
   }
   .sobre-section .descrição {
     background-color: transparent;
