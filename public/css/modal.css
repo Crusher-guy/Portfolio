@@ -1,47 +1,10 @@
-/* Global ===================== */
 
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-:root {
-  /* BACKGOUNDS*/
-
-  --header-color: #000000;
-  --body-color: #1a191c;
-  --value-color: rgb(255, 255, 255);
-  --base-color: #ffffff;
-  --footer: #8257e6;
-
-  /* BASIC COLORS */
-
-  --primary-color: #212025;
-  --secundary-color: #8257e6;
-  --shadow: #1b1629;
-  --descriptions-color: #969cb3;
-}
-/* Titles ===================== */
-h2 {
-  margin-top: 3.2rem;
-  margin-bottom: 0.8rem;
-  color: #e1e1e6;
-  font-weight: normal;
-}
 
 .portfólio-descrição-modal p {
   color: #e1e1e6;
   line-height: 1.5;
 }
 
-/* Links  ===================== */
-
-a {
-  color: var(--button-new);
-  text-decoration: none;
-}
-a:hover {
-
-  opacity: .8;
-}
 
 /* Modal ===================== */
 .modal-overlay,
