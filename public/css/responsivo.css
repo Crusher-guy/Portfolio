@@ -111,9 +111,7 @@ height: 65vh;
     background-color: transparent;
   }
 
-  .habilidades {
-    margin-top: 490px;
-  }
+
   .sobre-section .download {
 margin: 0 auto;
 transform: translatex(-35px);
@@ -207,11 +205,7 @@ margin-top: 0px;
   }
 }
 
-@media (max-width: 450px){
-.habilidades {
-    margin-top: 460px;
-}
-}
+
 
 @media (max-width: 420px){
   .habilidades {
