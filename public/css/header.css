@@ -66,11 +66,17 @@ max-width: 100%;
       }
 
  .img-Leo1 {
-  /* width: 400px;
-  height: 400px; */
+  width: 400px;
+  height: 400px;
   max-width: 100%;
   position: absolute;
   right: 0px;
   margin-right: 0px;
+ }
 
-}
+ .img-Leo2{
+  width: 450px;
+  height: 450px;
+  max-width: 100%;
+  /* background: transparent; */
+ }
