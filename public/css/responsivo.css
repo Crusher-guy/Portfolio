@@ -1,12 +1,18 @@
 
-@media (max-width: 1080px){
+@media (max-width: 1030px){
 .sobre-section{
-display: none;
+justify-content: center;
+padding: 30px;
 }
 .habilidades{
-  margin-top:160px;
+  margin-top:460px;
 }
+.descrição h1{
+  text-align: center;
 }
+
+}
+
 
 @media (max-width: 1065px) {
  .img-Leo1 {
@@ -90,7 +96,7 @@ height: 65vh;
   .sobre-section {
     background-color: transparent;
     margin-left: 30px;
-  }
+    }
 
   .sobre-section .descrição h1 {
     margin-left: 0;
@@ -102,16 +108,9 @@ height: 65vh;
 }
 
 @media (max-width: 1030px) {
-
-  .sobre-section {
-    background-color: transparent;
-    /* justify-content: left; */
-  }
   .sobre-section .descrição {
     background-color: transparent;
   }
-
-
   .sobre-section .download {
 margin: 0 auto;
 transform: translatex(-35px);
@@ -215,25 +214,25 @@ margin-top: 0px;
   
   @media (max-width: 370px){
     .habilidades {
-        margin-top: 410px;
+        margin-top: 500px;
     }
     }
 
     @media (max-width: 340px){
       .habilidades {
-          margin-top: 380px;
+          margin-top: 530px;
       }
       }
     
-      @media (max-width: 225px){
+      @media (max-width: 288px){
         .habilidades {
-          margin-top: 400px;
+          margin-top: 590px;
         }
       }
 
-      @media (max-width: 214px){
+      @media (max-width: 275px){
         .habilidades {
-          margin-top: 430px;
+          margin-top: 660px;
         }
       }
 
